@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Utah Tech University :: Alumni</title>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script> 
+    function validateForm() {
+         if (document.forms[0].myEmail.value == "" ) {
+              alert("Please enter an e-mail address.");
+              return false;
+         } // end if
+         return true;
+    } // end function validateForm
+    </script>
+</head>
+<body>
+  <div id="wrapper">
+  <div id="bluebar"></div>
+  <div id="greybar"></div>
+    <header>
+   <h1><a href="index.html">Utah Tech University</a></h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li> 
+      <li><a href="students.html">Students</a></li> 
+      <li><a href="faculty.html">Faculty</a> </li>
+      <li><a href="alumni.html">Alumni</a></li>
+      <li><a href="shop.html">Shop</a></li>
+    </ul>
+  </nav>
+  <div id="alumnihero"></div>
+  <main>
+    <h2>Join Alumni Mailing List</h2>
+    <h3>Request Alumni Newsletter</h3>
+    <p>Required Information is marked with an asterisk (*)</p>
+    <form method="post" onsubmit="return validateForm();" action="https://computing.utahtech.edu/web/1400/mail.php">
+        <label for="myFname">First Name: </label><input name="myFname" id="myFname" type="text">
+        <label for="myLname">Last Name: </label><input name="myLname" id="myLname" type="text">
+        <label for="myEmail">E-mail: </label><input name="myEmail" id="myEmail" type="email">
+        <label for="myPhone">Phone: </label><input name="myPhone" id="myPhone" type="tel">
+        <label for="myGraddate">Graduation Date: </label><input name="myGraddate" id="myGraddate" type="date">
+        <label for="myComments">Comments: </label><textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+        <input name="mySubmit" type="submit">
+      </form>   
+  </main>
+  <footer>
+    Copyright &copy; 2023 Utah Tech University<br>
+    <a href="mailto:austin.davis@utahtech.edu">austin.davis@utahtech.edu</a>
+  </footer>
+  </div>
+</body>
+</html>

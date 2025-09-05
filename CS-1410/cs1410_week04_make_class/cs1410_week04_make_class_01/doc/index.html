@@ -1,0 +1,52 @@
+<html><head></head><body><h2>Exercise: Brake Method</h2>
+
+<h3>Description</h3>
+
+<p>In this exercise, you will add to your <code>Car</code> class
+a method to apply the brake and reduce the speed of an instance.</p>
+
+<h3>Class Name</h3>
+
+<p><code>Car</code></p>
+
+<h3>Method</h3>
+
+<p><code>brake()</code></p>
+
+<h3>Parameters</h3>
+
+<ul>
+<li><code>self</code> : the <code>Car</code> object to use</li>
+<li><code>delta_speed</code> : a number, the desired value to subtract from the speed data member.</li>
+</ul>
+
+<h3>Action</h3>
+
+<p>Subtracts <code>delta_speed</code> from the speed of the object.  If the
+new speed is below 0, then set the speed to 0.</p>
+
+<p>Only do this action of <code>delta_speed</code> is positive, and
+the <code>Car</code> isn&#39;t already stopped.</p>
+
+<h3>Return Value</h3>
+
+<p><code>True</code> if a change occurred, <code>False</code> otherwise.</p>
+
+<h3>Examples</h3>
+
+<pre><code>c = Car()
+c.setSpeed(40.) -&gt; True
+c.brake(25.) -&gt; True
+c.brake(30.) -&gt; True
+c.brake(1.) -&gt; False
+c.brake(-1.) -&gt; False
+</code></pre>
+
+<h3>Hints</h3>
+
+<ul>
+<li>Remember, you&#39;re adding to the code from the previous step.</li>
+<li>You may want to use the global constant from your file
+regarding the maximum allowed speed.</li>
+</ul>
+</body></html>

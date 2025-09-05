@@ -1,0 +1,71 @@
+<html><head></head><body><h2>Exercise: Triad Method</h2>
+
+<h3>Description</h3>
+
+<p>Triad colors are used to make good color choices
+for interface design. Triad colors are
+three colors are are spread out evenly around the color wheel.</p>
+
+<p>In this exercise, you will add to your <code>Color</code> class
+a method to convert a color into its next triad partner.
+You can calculate the
+red, green, blue values for the next triad color quickly.
+The triad color&#39;s red value is the current color&#39;s green.
+The triad color&#39;s green value is the current color&#39;s blue.
+The triad color&#39;s blue value is the current color&#39;s red.</p>
+
+<p>For example, if the color has 15 red, 45 green, and 199
+blue.  Then the next triad color has 45 red,
+199 green, and 15 blue.
+The other triad color has 199 red,
+15 green, and 45 blue.</p>
+
+<h3>Class Name</h3>
+
+<p><code>Color</code></p>
+
+<h3>Method</h3>
+
+<p><code>triad()</code></p>
+
+<h3>Parameters</h3>
+
+<ul>
+<li><code>self</code> : the <code>Color</code> object to use</li>
+</ul>
+
+<h3>Action</h3>
+
+<p>Changes the red, green, and blue values
+for the color into those of the next triad color.</p>
+
+<h3>Return Value</h3>
+
+<p><code>True</code>.</p>
+
+<h3>Examples</h3>
+
+<pre><code>c = Color(15, 45, 199)
+c.getRed() -&gt; 15
+c.getGreen() -&gt; 45
+c.getBlue() -&gt; 199
+c.triad()
+c.getRed() -&gt; 45
+c.getGreen() -&gt; 199
+c.getBlue() -&gt; 15
+c.triad()
+c.getRed() -&gt; 199
+c.getGreen() -&gt; 15
+c.getBlue() -&gt; 45
+c.triad()
+c.getRed() -&gt; 15
+c.getGreen() -&gt; 45
+c.getBlue() -&gt; 199
+</code></pre>
+
+<h3>Hints</h3>
+
+<ul>
+<li>Remember, you&#39;re adding to the code from the previous step.</li>
+</ul>
+</body></html>

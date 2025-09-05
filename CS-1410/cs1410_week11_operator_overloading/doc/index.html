@@ -1,0 +1,64 @@
+<html><head></head><body><h2>Exercise: Blob Movement</h2>
+
+<h3>Description</h3>
+
+<p>For this exercise, you will create a method to
+move a blob.  This will be done by overriding the
+right shift and change operator, <code>&gt;&gt;=</code>.</p>
+
+<h3>Class Name</h3>
+
+<p><code>Blob</code></p>
+
+<h3>Method</h3>
+
+<ul>
+<li><code>__irshift__()</code></li>
+</ul>
+
+<h3>Parameters</h3>
+
+<ul>
+<li><code>self</code>  : the <code>Blob</code> object to grow</li>
+<li><code>distance</code> : a float value</li>
+</ul>
+
+<h3>Action</h3>
+
+<p>This method will change the <code>mX</code> and <code>mY</code> data members
+of the <code>self</code> blob.  <code>mX</code> will be updated by adding
+<code>mDx</code> times <code>distance</code> to it.</p>
+
+<p>To avoid going off of the screen, if <code>mX</code> is so large
+that part of the circle would be off of the screen, then
+<code>mX</code> is set to the largest value that would not have it
+off of the screen.</p>
+
+<p>Or, if <code>mX</code> is so small that part of the circle would be
+off of the screen, then <code>mX</code> is set to the smallest value
+that would not have it off of the screen.</p>
+
+<p>The value of <code>mY</code> is handled in a similar fashion.</p>
+
+<h3>Return Value</h3>
+
+<p><code>self</code> as done in a previous operator.</p>
+
+<h3>Examples</h3>
+
+<pre><code>import blob
+b1 = blob.Blob(1.5, 23, 37, 800, 600, blob.KIND_PLAYER)
+b1 &gt;&gt;= 3.5 # tries to move b1 3.5 pixels in its current direction
+</code></pre>
+
+<h3>Hints</h3>
+
+<ul>
+<li>The farthest right point on the blob is one radius distance
+to the right of center.</li>
+<li>The farthest left point on the blob is one radius distance
+to the left of center.</li>
+<li><code>getRadius()</code> will tell you the radius of your blob&#39;s circle</li>
+<li>The world&#39;s width and height can be found in data members.</li>
+</ul>
+</body></html>

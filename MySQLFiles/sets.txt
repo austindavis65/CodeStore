@@ -1,0 +1,100 @@
+mysql> source sets.sql
+Database changed
+--------------
+SELECT city 
+FROM s
+UNION
+SELECT city
+FROM j
+--------------
+
++--------+
+| city   |
++--------+
+| London |
+| Paris  |
+| Athens |
+| Rome   |
+| Oslo   |
++--------+
+5 rows in set (0.00 sec)
+
+--------------
+SELECT city
+FROM s
+UNION
+SELECT city
+FROM j
+UNION
+SELECT city
+FROM p
+--------------
+
++--------+
+| city   |
++--------+
+| London |
+| Paris  |
+| Athens |
+| Rome   |
+| Oslo   |
++--------+
+5 rows in set (0.00 sec)
+
+--------------
+SELECT city
+FROM j
+INTERSECT
+SELECT city
+FROM s
+--------------
+
++--------+
+| city   |
++--------+
+| Paris  |
+| Athens |
+| London |
++--------+
+3 rows in set (0.01 sec)
+
+--------------
+SELECT city
+FROM j
+INTERSECT
+SELECT city
+FROM s
+INTERSECT
+SELECT city
+FROM p
+--------------
+
++--------+
+| city   |
++--------+
+| Paris  |
+| London |
++--------+
+2 rows in set (0.00 sec)
+
+--------------
+SELECT city
+FROM j
+WHERE city NOT IN 
+(SELECT city FROM p)
+UNION
+SELECT city 
+FROM s
+WHERE city NOT IN 
+(SELECT city FROM p)
+--------------
+
++--------+
+| city   |
++--------+
+| Athens |
+| Oslo   |
++--------+
+2 rows in set (0.00 sec)
+
+mysql> exit

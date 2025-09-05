@@ -1,0 +1,388 @@
+<html><head></head><body><hr/>
+
+<h1>CS 1410: Gas Mileage</h1>
+
+<p>Formatted instructions here: <a href="http://cit.dixie.edu/cs/1410/labs/gas_mileage.php">http://cit.dixie.edu/cs/1410/labs/gas_mileage.php</a></p>
+
+<hr/>
+
+<h2>Introduction</h2>
+
+<p>With gas prices constantly fluctuating and consumers being more conscientious of environmental concerns, fuel economy is becoming a higher priority for many. Nevertheless, the vast majority of drivers don&#39;t know how to accurately measure their vehicle&#39;s actual fuel economy, which most of us in the United States measure in miles per gallon. But with a little bit of programming help, it&#39;s easy to calculate and track gas mileage over time.</p>
+
+<hr/>
+
+<h2>Assignment</h2>
+
+<p>Your program will gather and record information about a vehicle&#39;s mileage and gas consumption, and then use this information to calculate the vehicle&#39;s fuel economy in miles per gallon. Your program will feature a very simple menu that allows the user to perform any one of four operations, one at a time, repeatedly until the user chooses to quit the program. When prompted, the user may select one of the four operations by inputting a unique letter corresponding to one of the operations. The four operations (and their unique letters) are:</p>
+
+<ol>
+<li><p><strong>[r] Record Gas Consumption:</strong> This operation allows the user to record gas consumption when they fill their vehicle with gas. It asks the user for three pieces of information: the date, the number of miles traveled since the vehicle was last filled with gas, and the number of gallons of gas that was just added to the vehicle. You should store each of these values into a dictionary that contains three keys (one key for each of the three values), and then save the dictionary by appending it to a list.</p></li>
+
+<li><p><strong>[l] List Mileage History:</strong> This operation does not ask the user for any additional information. Your program will print a list of all recorded gas consumption entries, one per line. Each line should contain the date, the number of miles traveled, and the number of gallons added. Also print the gas mileage (miles per gallon) for this entry, calculated using the number of miles traveled and the number of gallons added (from this entry only).</p></li>
+
+<li><p><strong>[c] Calculate Gas Mileage:</strong> This operation does not ask the user for any additional information. Your program will calculate the average gas mileage from all recorded gas consumption entries and print the average gas mileage on a single line. If no gas consumption entries have been recorded, print a message that asks the user to first record their gas consumption.</p></li>
+
+<li><p><strong>[q] Quit:</strong> When this operation is selected, your program will print a friendly goodbye message to the user and then terminate.</p></li>
+
+<li><p><strong>Something else?</strong> If the user enters a different letter or phrase, print a message informing the user that this option is invalid, and allow them to try again.</p></li>
+</ol>
+
+<hr/>
+
+<h2>Extra Challenges</h2>
+
+<ul>
+<li>Because this assignment does not require you to save the gas consumption records to a file, you may assume that all records will be lost when the program quits. However, wouldn&#39;t it be useful if the records were <em>not</em> lost? Consider upgrading your program to write all records to a file just before the program quits, and then also load any records from the same file when the program is started again.</li>
+</ul>
+
+<hr/>
+
+<h2>Hints</h2>
+
+<ul>
+<li><p>Before starting, practice using dictionaries and lists. You&#39;ll need to know how to create a dictionary, set a value by key, retrieve a value by key, append a dictionary to a list, and iterate over a list of dictionaries.</p></li>
+
+<li><p>In order to calculate gas mileage, you should store the number of miles traveled and the number of gallons added as float values. Here is a simple way to convert a string or integer value to a float value: <code>gallons = float(gallons)</code></p></li>
+</ul>
+
+<hr/>
+
+<h2>Sample</h2>
+
+<p>Program execution:</p>
+
+<pre><code class="language-language-text">What would you like to do?
+[r] Record Gas Consumption
+[l] List Mileage History
+[c] Calculate Gas Mileage
+[q] Quit
+Enter an option: l
+You first need to record your gas consumption!
+
+What would you like to do?
+[r] Record Gas Consumption
+[l] List Mileage History
+[c] Calculate Gas Mileage
+[q] Quit
+Enter an option: c
+You first need to record your gas consumption!
+
+What would you like to do?
+[r] Record Gas Consumption
+[l] List Mileage History
+[c] Calculate Gas Mileage
+[q] Quit
+Enter an option: r
+What is the date? [I hit enter on the keyboard]
+What is the date?    1/1/17 [I add spaces before the date]
+How many miles did you drive since last filling up? twelve
+Please enter a number.
+How many miles did you drive since last filling up? -17
+Please enter a number greater than zero.
+How many miles did you drive since last filling up? 0
+Please enter a number greater than zero.
+How many miles did you drive since last filling up? 300
+How many gallons of gas did you add to your tank? zero
+Please enter a number.
+How many gallons of gas did you add to your tank? 0
+Please enter a number greater than zero.
+How many gallons of gas did you add to your tank? -1
+Please enter a number greater than zero.
+How many gallons of gas did you add to your tank? 10.0
+Saved!
+
+What would you like to do?
+[r] Record Gas Consumption
+[l] List Mileage History
+[c] Calculate Gas Mileage
+[q] Quit
+Enter an option: r
+What is the date? 1/25/17
+How many miles did you drive since last filling up? 200
+How many gallons of gas did you add to your tank? 8
+Saved!
+
+What would you like to do?
+[r] Record Gas Consumption
+[l] List Mileage History
+[c] Calculate Gas Mileage
+[q] Quit
+Enter an option: l
+On 1/1/17: 300.0 miles traveled using 10.0 gallons. Gas mileage: 30.0 MPG
+On 1/25/17: 200.0 miles traveled using 8.0 gallons. Gas mileage: 25.0 MPG
+
+What would you like to do?
+[r] Record Gas Consumption
+[l] List Mileage History
+[c] Calculate Gas Mileage
+[q] Quit
+Enter an option: c
+Average gas mileage: 27.77777777777778 MPG
+
+What would you like to do?
+[r] Record Gas Consumption
+[l] List Mileage History
+[c] Calculate Gas Mileage
+[q] Quit
+Enter an option: x
+Sorry, that option is invalid.
+
+What would you like to do?
+[r] Record Gas Consumption
+[l] List Mileage History
+[c] Calculate Gas Mileage
+[q] Quit
+Enter an option: q
+Bye! See you next time!
+</code></pre>
+
+<hr/>
+
+<h2>Instructions</h2>
+
+<p>Create your program in the file <code>gas_mileage.py</code>. <a href="gas_mileage.zip">Unit tests</a> are available for download. Your <code>gas_mileage.py</code> needs to be in the same folder as the unittest files.</p>
+
+<p>You must follow the specifications exactly, but may choose your own method for solving the problem described for each. Once you have completed a function you should run the unittest for that function and have it pass all tests. Fix any errors, warnings, and/or failures.</p>
+
+<p>Because of the user input and output, not all functions are easily tested with unit tests. Be sure to test these functions by running your program and observing the correct behavior.</p>
+
+<ul>
+<li><code>milesPerGallon</code></li>
+<li><code>createNotebook</code></li>
+<li><code>recordTrip</code></li>
+<li><code>listTrips</code></li>
+<li><code>calculateMPG</code></li>
+<li><code>formatMenu</code></li>
+<li><code>formatMenuPrompt</code></li>
+<li><code>getUserString</code></li>
+<li><code>getUserFloat</code></li>
+<li><code>getDate</code></li>
+<li><code>getMiles</code></li>
+<li><code>getGallons</code></li>
+<li><code>recordTripAction</code></li>
+<li><code>listTripsAction</code></li>
+<li><code>calculateMPGAction</code></li>
+<li><code>quitAction</code></li>
+<li><code>applyAction</code></li>
+<li><code>main</code></li>
+</ul>
+
+<hr/>
+
+<h3><code>milesPerGallon</code></h3>
+
+<p>The function <code>milesPerGallon</code> receives two parameters, <code>miles</code> and <code>gallons</code>, both numbers (floats or integers). It returns the float value from dividing miles by gallons. If the value of gallons equals zero the function should return <code>0.0</code>. There is no need to round the returned values.</p>
+
+<pre><code class="language-language-python">milePerGallon(300.0, 10.0) -&gt; 30.0
+milesPerGallon(215.0, 8.765) -&gt; 24.529378208784937
+milesPerGallon(300, 11) -&gt; 27.272727272727273
+milePerGallon(300, 0) -&gt; 0.0
+</code></pre>
+
+<hr/>
+
+<h3><code>createNotebook</code></h3>
+
+<p>The function <code>createNotebook</code> does not receive any parameters.  It must return an empty list to use as a &#34;notebook&#34; to track your trip data.</p>
+
+<pre><code class="language-language-python">createNotebook() -&gt; []
+</code></pre>
+
+<hr/>
+
+<h3><code>recordTrip</code></h3>
+
+<p>The function <code>recordTrip</code> takes four parameters, the notebook list, the date of the trip (a string), the miles traveled (a float), and the gallons of gas pumped (a float). It creates a new dictionary for the trip and adds it to the notebook list. The function does not return anything, but it will update the notebook list. <em>Note: the order of the pairs in the trip dictionary does not matter.</em></p>
+
+<pre><code class="language-language-python">notebook = []
+recordTrip(notebook, &#39;01/01/2017&#39;, 300.0, 10.0)
+print(notebook) -&gt; [{&#39;date&#39;: &#39;01/01/2017&#39;, &#39;miles&#39;: 300.0, &#39;gallons&#39;: 10.0}]
+recordTrip(notebook, &#39;01/02/2017&#39;, 270.0, 8.6)
+print(notebook) -&gt; [{&#39;date&#39;: &#39;01/01/2017&#39;, &#39;miles&#39;: 300.0, &#39;gallons&#39;: 10.0}, {&#39;date&#39;: &#39;01/02/2017&#39;, &#39;miles&#39;: 270.0, &#39;gallons&#39;: 8.6}]
+</code></pre>
+
+<hr/>
+
+<h3><code>listTrips</code></h3>
+
+<p>The function <code>listTrips</code> take one parameter, the notebook list. The function returns a list of strings. Each string in the list is a line that contains the date of the trip, the miles travel, the gallons pumped, and the miles per gallon (mpg) for that trip. <em>Consider using the <code>milesPerGallon</code> function from above</em>. See the example from above for an example on how to format the line. If there are no trips in the notebook, the function returns an empty list. <strong>The function should not modify the notebook.</strong></p>
+
+<p><em>You may round your float numbers to 2 decimal places, but it is not required.</em></p>
+
+<pre><code class="language-language-python">notebook = []
+listTrips(notebook) -&gt; []
+notebook2 = [
+    {&#39;date&#39;: &#39;1/15/16&#39;, &#39;miles&#39;: 300.0, &#39;gallons&#39;: 10.0},
+    {&#39;date&#39;: &#39;1/25/16&#39;, &#39;miles&#39;: 200.0, &#39;gallons&#39;: 8.0},
+]
+listTrips(notebook2) -&gt; [&#39;On 1/15/16: 300.0 miles traveled using 10.0 gallons. Gas mileage: 30.0 MPG&#39;, &#39;On 1/25/16: 200.0 miles traveled using 8.0 gallons. Gas mileage: 25.0 MPG&#39;]
+</code></pre>
+
+<hr/>
+
+<h3><code>calculateMPG</code></h3>
+
+<p>The function <code>calculateMPG</code> takes one parameter, the notebook list. The function calculates the Average MPG (calculated from total miles and total gallons) for all trips recorded and returns it as a float. You should not round the values. If there are no trips in the notebook the function returns <code>0.0</code>. <em>Do not use milesPerGallon</em> function from above. You should sum all the miles and sum all the gallons. Using those sums, calculate the average. <strong>The function should not modify the notebook.</strong></p>
+
+<pre><code class="language-language-python">notebook = []
+calculateMPG(notebook) -&gt; 0.0
+notebook2 = [
+    {&#39;date&#39;: &#39;1/15/16&#39;, &#39;miles&#39;: 300.0, &#39;gallons&#39;: 10.0},
+    {&#39;date&#39;: &#39;1/25/16&#39;, &#39;miles&#39;: 200.0, &#39;gallons&#39;: 8.0},
+]
+calculateMPG(notebook2) -&gt; 27.77777777777778
+</code></pre>
+
+<hr/>
+
+<h3><code>formatMenu</code></h3>
+
+<p>The function <code>formatMenu</code> does not receive any parameters.  It must return a list of strings that contains the lines of the menu.</p>
+
+<pre><code class="language-language-python">formatMenu() -&gt; [&#39;What would you like to do?&#39;, &#39;[r] Record Gas Consumption&#39;, &#39;[l] List Mileage History&#39;, &#39;[c] Calculate Gas Mileage&#39;, &#39;[q] Quit&#39;]
+</code></pre>
+
+<hr/>
+
+<h3><code>formatMenuPrompt</code></h3>
+
+<p>The function <code>formatMenuPrompt</code> does not receive any parameters.  It must return a string that contains the prompt to ask the user which menu option they would like to select.</p>
+
+<pre><code class="language-language-python">formatMenuPrompt() -&gt; &#39;Enter an option: &#39;
+</code></pre>
+
+<hr/>
+
+<h3><code>getUserString</code></h3>
+
+<p>The function <code>getUserString</code> receives one parameter, a string that contains a prompt for input.  It must return a string that contains the text input by the user, with any leading and trailing whitespace removed.  If the user gives an empty string, prompt them again, until they give a non-empty string.  Note that this function interacts with the user, so there will be output to the screen and input from the keyboard when it is called.</p>
+
+<pre><code class="language-language-python">getUserString(&#34;What is your name? &#34;) -&gt; &#39;It is Arthur, King of the Britons.&#39;
+getUserString(&#34;What is your quest? &#34;) -&gt; &#39;To seek the Holy Grail.&#39;
+getUserString(&#34;What is the air-speed velocity of an unladen swallow?&#34;) -&gt; &#39;What do you mean? An African or European swallow?&#39;
+</code></pre>
+
+<hr/>
+
+<h3><code>getUserFloat</code></h3>
+
+<p>The function <code>getUserFloat</code> receives one parameter, a string that contains a prompt for input.  It must return a float that contains the number input by the user. If the user enters a non-number or a number less than or equal to zero it should prompt them again. To accomplish this you might consider using a <a href="https://docs.python.org/3/tutorial/errors.html#handling-exceptions">try/except clause</a> which allows you to try an execute some code (convert user&#39;s input to a float) and recover if it fails.</p>
+
+<p><strong>Example</strong></p>
+
+<pre><code class="language-language-python">try:
+    # try some code
+    float(&#39;this is a string&#39;)
+except:
+    # this gets called if anything above fails.
+    print(&#34;you can&#39;t convert that string to a float&#34;)
+</code></pre>
+
+<pre><code class="language-language-python">getUserFloat(&#39;Type 1.7 &#39;) -&gt; 1.7
+getUserFloat(&#39;Type 1 &#39;) -&gt; 1.0
+getUserFloat(&#39;Type in an integer &#39;) -&gt; 10.0
+getUserFloat(&#39;Type in a float &#39;) -&gt; 3.142
+</code></pre>
+
+<hr/>
+
+<h3><code>getDate</code></h3>
+
+<p>The function <code>getDate</code> does not receive any parameters. It must prompt the user for a date and return the date input by the user. The user&#39;s response should not contain leading or trailing whitespace. The function should continue to ask the user for input until the user gives a valid response. <em>Consider calling <code>getUserString</code>.</em></p>
+
+<pre><code class="language-language-python">getDate() -&gt; &#39;01/01/2107&#39;
+getDate() -&gt; &#39;Jan 01&#39;
+getDate() -&gt; &#39;user-typed-this&#39;
+</code></pre>
+
+<hr/>
+
+<h3><code>getMiles</code></h3>
+
+<p>The function <code>getMiles</code> does not receive any parameters. It must prompt the user to input a number and return the float value of that number. The function should continue to prompt the user until their input is valid (float or integer greater than zero). <em>Consider calling <code>getUserFloat</code>.</em></p>
+
+<pre><code class="language-language-python">getMiles() -&gt; 300.0
+getMiles() -&gt; 217.6
+</code></pre>
+
+<hr/>
+
+<h3><code>getGallons</code></h3>
+
+<p>The function <code>getGallons</code> does not receive any parameters. It must prompt the user to input a number and return the float value of that number. The function should continue to prompt the user until their input is valid (float or integer greater than zero). <em>Consider calling <code>getUserFloat</code>.</em></p>
+
+<pre><code class="language-language-python">getGallons() -&gt; 12.0
+getGallons() -&gt; 9.99
+</code></pre>
+
+<hr/>
+
+<h3><code>recordTripAction</code></h3>
+
+<p>The function <code>recordTripAction</code> receives one parameter, the notebook list. It must prompt the user for the date, miles traveled, and gallons pumped and record it in the notebook. All inputs must be valid. <em>Consider using functions from above.</em> Print a message to the user so they know the trip was saved.</p>
+
+<pre><code class="language-language-python">recordTripAction(notebook) -&gt; the notebook should be modified.
+</code></pre>
+
+<hr/>
+
+<h3><code>listTripsAction</code></h3>
+
+<p>The function <code>listTripsAction</code> receives one parameter, the notebook list. It will display all of the trips in the format shown in the examples. If there are no trips in the notebook, it must display a message to inform the user. The function does not return anything. The function  must not change the notebook.</p>
+
+<pre><code class="language-language-python">listTripsAction(notebook) -&gt; the notebook should NOT be modified.
+</code></pre>
+
+<hr/>
+
+<h3><code>calculateMPGAction</code></h3>
+
+<p>The function <code>calculateMPGAction</code> receives one parameter, the notebook list. It should print the average MPG to the user. If there are no trips in the notebook it should display a message notifying the user there is no trip data. The function must not change the notebook.</p>
+
+<p><em>You may round your float number to 2 decimal places, but it is not required.</em></p>
+
+<pre><code class="language-language-python">calculateMPGAction(notebook) -&gt; the notebook should NOT be modified.
+</code></pre>
+
+<hr/>
+
+<h3><code>quitAction</code></h3>
+
+<p>The function <code>quitAction</code> receives the notebook list as a parameter.  This function will display a message to the user indicating the end of the program.  It will then terminate the program using <code>sys.exit( 0 )</code>.  Be sure to do the correct <code>import</code> statement.  This function does not return anything.</p>
+
+<pre><code class="language-language-python">quitAction(notebook) -&gt; the program will end
+</code></pre>
+
+<hr/>
+
+<h3><code>applyAction</code></h3>
+
+<p>The function <code>applyAction</code> receives the notebook list and a choice string as parameters.  This function will call the appropriate action function based on the choice string.  If the choice string does not match any accepted choices, it will display a message to the user.  This function does not return anything.  The notebook may be changed as a result of the chosen action.</p>
+
+<pre><code class="language-language-python">applyAction(notebook, &#34;r&#34;) -&gt; the notebook will have a new trip added.
+applyAction(notebook, &#34;l&#34;) -&gt; the trips will be displayed.
+applyAction(notebook, &#34;c&#34;) -&gt; the overall average MPG will be displayed.
+applyAction(notebook, &#34;q&#34;) -&gt; the program will terminate.
+applyAction(notebook, &#34;x&#34;) -&gt; the user will receive a message.
+</code></pre>
+
+<hr/>
+
+<h3><code>main</code></h3>
+
+<p>The function <code>main</code> receives no parameters, and returns nothing.  This function ties everything together.  Create a notebook, repeatedly asking the user their choice and taking appropriate action. <em>Note: everything you need to finish the main function should be contained in the functions above.</em></p>
+
+<pre><code class="language-language-python">main() -&gt; the program runs.
+</code></pre>
+
+<hr/>
+
+<h3>Finishing Up</h3>
+
+<p>Lastly add this snippet at the bottom of your file which will execute your <code>main()</code> function when you run <code>gas_mileage.py</code> but will allow it to be imported into the unittest files without executing the main function.</p>
+
+<pre><code class="language-language-python">if __name__ == &#39;__main__&#39;:
+    main()
+</code></pre>
+</body></html>

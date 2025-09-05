@@ -1,0 +1,420 @@
+<html><head></head><body><hr/>
+
+<h1>CS 1410: Caloric Balance</h1>
+
+<hr/>
+
+<p>How many calories should you eat each day? It&#39;s a commonly-asked question, and
+the answer is that it&#39;s different for each person depending on their physical
+characteristics, activity, and whether they want to lose weight, gain weight, or
+maintain their current weight.</p>
+
+<p>Calories are units of energy that our bodies consume and expend each day. If we
+consume the same number of calories that we expend, then our body weight does
+not change. If we consume fewer calories than we expend (a caloric deficit),
+then our body weight decreases, and if we consume more calories than we expend
+(a caloric surplus), then our body weight increases. We consume calories by
+eating food, and we expend calories by moving around and exercising (and even
+while resting or sleeping).</p>
+
+<p>By leveraging a little bit of math, we can write a program that helps us to
+determine the number of calories that we should consume in order to lose weight,
+gain weight, or maintain our current weight, depending on our goals.</p>
+
+<hr/>
+
+<h2>Calculations</h2>
+
+<p>You can calculate a person&#39;s daily
+<a href="http://www.cdc.gov/healthyweight/calories/">caloric balance</a> to determine if
+the person ends the day with a caloric deficit, a caloric surplus, or a stable
+balance. The calculation is simple: calories consumed minus calories expended.
+But how are each of these calculated?</p>
+
+<ul>
+<li><p>The number of calories a person consumes in a day is calculated by adding the number of calories of each food item that the person eats during the day. It&#39;s that simple.</p></li>
+
+<li><p>The number of calories a person expends in a day is calculated by adding two values: 1) the number of calories that the person&#39;s body expends while at rest (called the <a href="http://www.bmi-calculator.net/bmr-calculator/">Basal Metabolic Rate</a>, or BMR), and 2) the number of calories that the person expends while moving around or exercising during the day (which depends on the level of physical activity or how rigorous the exercise is).</p>
+
+<p>There are simple formulas to calculate both the BMR and the number of calories expended through physical activity:</p>
+
+<ul>
+<li><p><strong>BMR</strong>: there are two formulas to calculate this: one for men and one for women. In either case, the person&#39;s weight, height, and age are needed. Here are the formulas:</p>
+
+<pre><code class="language-language-text">Men:   BMR = 66 + (12.7 * height in inches) + (6.23 * weight in pounds) - (6.8 * age in years)
+Women: BMR = 655 + (4.7 * height in inches) + (4.35 * weight in pounds) - (4.7 * age in years)
+</code></pre>
+<ul>
+<li><strong>Physical activity</strong>: each type of physical activity expends a different
+number of calories. Refer to <a href="http://whatscookingamerica.net/Information/CalorieBurnChart.htm">this table</a>
+(here is the link: <a href="http://whatscookingamerica.net/Information/CalorieBurnChart.htm">http://whatscookingamerica.net/Information/CalorieBurnChart.htm</a>)
+for a list of physical activities and the number of calories that each
+activity expends per minute, per pound. So, in order to calculate the
+total number of calories expended for an activity, you&#39;ll need to know
+the person&#39;s weight and the duration of the activity in minutes.</li>
+<li>You may use these values for the four activities used in the examples below:</li>
+<li>jumping rope: .074</li>
+<li>running: .087</li>
+<li>sitting: .009</li>
+<li>walking: .036</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>Assignment</h2>
+
+<p>Your assignment is to create a Python program that uses a class to calculate and track a person&#39;s caloric balance throughout a day.</p>
+
+<p>Your program should start by asking the user for a person&#39;s physical characteristics that are needed for the calculations. This includes the person&#39;s gender, weight, height, and age. Your program should use this information to calculate the person&#39;s BMR, subtract it from the caloric balance, and then print the updated caloric balance. The caloric balance should start at 0, so after subtracting the BMR, the caloric balance will be a negative number. Then, your program should display a menu that provides the user with three options:</p>
+
+<ol>
+<li><p><strong>Record Food Consumption</strong>: this option will ask the user for the number of calories of the food item that was consumed. Your program should add this number to the caloric balance and then print the updated caloric balance.</p></li>
+
+<li><p><strong>Record Physical Activity</strong>: this option will ask the user to select an activity from a list of choices (you must include at least four different activities for the user to choose from), as well as the number of minutes that the activity was performed. Your program should use this information to calculate the number of calories expended, subtract this number from the caloric balance, and then print the updated caloric balance.</p></li>
+
+<li><p><strong>Quit</strong>: this option should terminate your program.</p></li>
+</ol>
+
+<hr/>
+
+<h2>Sample</h2>
+
+<p>Program execution:</p>
+
+<pre><code class="language-language-text">Hi! This program will calculate your caloric balance for the day!
+Before we can start, I need some information about you. Be honest! :)
+
+What is your gender (f or m)? f
+What is your age? 23
+What is your height in inches? 65
+What is your weight in pounds? 130
+
+Thanks! Now, throughout the day, tell me each time you eat or move.
+Your caloric balance is starting at -1417.9 (you need to eat something)
+What would you like to do?
+[f] Record Food Consumption
+[a] Record Physical Activity
+[q] Quit
+Enter an option: f
+Okay! How many calories did you just eat? 400
+Sweet! Your caloric balance is now -1017.9000000000001
+
+What would you like to do?
+[f] Record Food Consumption
+[a] Record Physical Activity
+[q] Quit
+Enter an option: a
+Choose an activity to record
+[j] Jump rope
+[r] Running
+[s] Sitting
+[w] Walking
+Enter an option: j
+For how many minutes did you perform this activity? 30
+Awesome! Your caloric balance is now -1306.5
+
+What would you like to do?
+[f] Record Food Consumption
+[a] Record Physical Activity
+[q] Quit
+Enter an option: e
+Sorry, that option is invalid.
+
+What would you like to do?
+[f] Record Food Consumption
+[a] Record Physical Activity
+[q] Quit
+Enter an option: a
+Choose an activity to record
+[j] Jump rope
+[r] Running
+[s] Sitting
+[w] Walking
+Enter an option: v
+Sorry, that option is invalid.
+
+What would you like to do?
+[f] Record Food Consumption
+[a] Record Physical Activity
+[q] Quit
+Enter an option: f
+Okay! How many calories did you just eat? twelve
+Please enter a number.
+Okay! How many calories did you just eat? -17
+Please enter a number greater than zero.
+Okay! How many calories did you just eat? 0
+Please enter a number greater than zero.
+Okay! How many calories did you just eat? 600
+Sweet! Your caloric balance is now -706.5
+
+What would you like to do?
+[f] Record Food Consumption
+[a] Record Physical Activity
+[q] Quit
+Enter an option: a
+Choose an activity to record
+[j] Jump rope
+[r] Running
+[s] Sitting
+[w] Walking
+Enter an option: r
+For how many minutes did you perform this activity? zero
+Please enter a number.
+For how many minutes did you perform this activity? -17
+Please enter a number greater than zero.
+For how many minutes did you perform this activity? 0
+Please enter a number greater than zero.
+For how many minutes did you perform this activity? 12
+Awesome! Your caloric balance is now -842.22
+
+What would you like to do?
+[f] Record Food Consumption
+[a] Record Physical Activity
+[q] Quit
+Enter an option: f
+Okay! How many calories did you just eat? 935
+Sweet! Your caloric balance is now 92.77999999999997
+
+What would you like to do?
+[f] Record Food Consumption
+[a] Record Physical Activity
+[q] Quit
+Enter an option: q
+Leaving? You should do this again tomorrow. Stay healthy!
+</code></pre>
+
+<hr/>
+
+<h2>Instructions</h2>
+
+<p>For this assignment you will need to make 2 files: <code>caloric_balance.py</code> and <code>main.py</code>. <a href="caloric_balance.zip">Unit tests</a> are available for download. Your files need to be in the same folder as the unittest files.</p>
+
+<p>You must follow the specifications exactly, but may choose your own method for solving the problem described for each. Once you have completed a function you should run the unittest for that function and have it pass all tests. Fix any errors, warnings, and/or failures.</p>
+
+<hr/>
+
+<h2>Instructions for <code>caloric_balance.py</code></h2>
+
+<p>Create a new class <code>CaloricBalance</code></p>
+
+<h3>Data Members</h3>
+
+<h4><code>weight</code></h4>
+
+<p>Keeps track of the user&#39;s entered weight. This is used for calculating caloric burn of activities.</p>
+
+<h4><code>balance</code></h4>
+
+<p>Keeps track of the user&#39;s caloric balance throughout the day.</p>
+
+<h3>Methods</h3>
+
+<h4><code>__init__</code></h4>
+
+<p>The constructor takes 4 additional parameters <code>gender</code> a string (<code>&#39;f&#39;</code> or <code>&#39;m&#39;</code>), <code>age</code> a float, <code>height</code> a float, and <code>weight</code> a float. It should store <code>weight</code> as a datamember and initialize <code>balance</code> as the negative value of the <code>getBMR</code> method. <em>You can&#39;t fully test this method until you complete the <code>getBMR</code> method. The unittests have been created to test appropriately.</em></p>
+
+<pre><code class="language-language-python">cb = CaloricBalance(&#39;f&#39;, 23.0, 65.0, 130.0)
+</code></pre>
+
+<h4><code>getBMR</code></h4>
+
+<p>This method receives 4 additional parameters <code>gender</code> a string (<code>&#39;f&#39;</code> or <code>&#39;m&#39;</code>), <code>age</code> a float, <code>height</code> a float, and <code>weight</code> a float. It should calculate and return the BMR using the calculations above. If the gender is not equal to <code>&#39;m&#39;</code> or <code>&#39;f&#39;</code> then the method returns <code>0.0</code></p>
+
+<pre><code class="language-language-python">cb.getBMR(&#39;f&#39;, 23.0, 65.0, 130.0) -&gt; 1417.9
+cb.getBMR(&#39;m&#39;, 26.0, 70.5, 185.0) -&gt; 1937.1 (rounded)
+cb.getBMR(&#39;x&#39;, 30.0, 60.0, 145.3) -&gt; 0.0
+</code></pre>
+
+<h4><code>getBalance</code></h4>
+
+<p>This method receives no additional parameters and returns the value of the <code>balance</code> datamember.</p>
+
+<pre><code class="language-language-python">cb = CaloricBalance(&#39;f&#39;, 23.0, 65.0, 130.0)
+cb.getBalance() -&gt; -1417.9
+</code></pre>
+
+<h4><code>recordActivity</code></h4>
+
+<p>This method receives 2 additional parameters <code>caloric_burn_per_pound_per_minute</code> and <code>minutes</code>, both numbers (integer or float). It calculates the number of calories burned per minute by multiplying <code>caloric_burn_per_pound_per_minute</code> and the <code>weight</code> datamember; then calculates the total caloric burn by multiplying the previous calculation by the <code>minutes</code>. It should subtract the total caloric burn from the <code>balance</code> datamember.</p>
+
+<pre><code class="language-language-python">cb = CaloricBalance(&#39;f&#39;, 23.0, 65.0, 130.0)
+cb.getBalance() -&gt; -1417.9
+cb.recordActivity(0.074, 30)
+cb.getBalance() -&gt; -1706.5
+cb.recordActivity(.009, 85)
+cb.getBalance() -&gt; -1805.95
+</code></pre>
+
+<h4><code>eatFood</code></h4>
+
+<p>This method takes 1 additional parameter <code>calories</code> a number (integer or float). It adds the calories to the current <code>balance</code> datamemeber.</p>
+
+<pre><code class="language-language-python">cb = CaloricBalance(&#39;f&#39;, 23.0, 65.0, 130.0)
+cb.getBalance() -&gt; -1417.9
+cb.eatFood(400)
+cb.getBalance() -&gt; -1017.9 (rounded)
+cb.eatFood(800)
+cb.getBalance() -&gt; -217.9 (rounded)
+</code></pre>
+
+<hr/>
+
+<h2>Instructions for <code>main.py</code></h2>
+
+<p>Create the following functions in your <code>main.py</code> file. You will need to also import and use your CaloricBalance class from <code>caloric_balance.py</code>.</p>
+
+<p>Because of the user input and output, not all functions are easily tested with unit tests. Be sure to test these functions by running your program and observing the correct behavior.</p>
+
+<ul>
+<li><code>formatMenu</code></li>
+<li><code>formatMenuPrompt</code></li>
+<li><code>formatActivityMenu</code></li>
+<li><code>getUserString</code></li>
+<li><code>getUserFloat</code></li>
+<li><code>createCaloricBalance</code></li>
+<li><code>recordActivityAction</code></li>
+<li><code>eatFoodAction</code></li>
+<li><code>quitAction</code></li>
+<li><code>applyAction</code></li>
+<li><code>main</code></li>
+</ul>
+
+<hr/>
+
+<h3><code>formatMenu</code></h3>
+
+<p>The function <code>formatMenu</code> does not receive any parameters.  It must return a list of strings that contains the lines of the menu.</p>
+
+<pre><code class="language-language-python">formatMenu() -&gt; [&#39;What would you like to do?&#39;, &#39;[f] Record Food Consumption&#39;, &#39;[a] Record Physical Activity&#39;, &#39;[q] Quit&#39;]
+</code></pre>
+
+<hr/>
+
+<h3><code>formatMenuPrompt</code></h3>
+
+<p>The function <code>formatMenuPrompt</code> does not receive any parameters.  It must return a string that contains the prompt to ask the user which menu option they would like to select.</p>
+
+<pre><code class="language-language-python">formatMenuPrompt() -&gt; &#39;Enter an option: &#39;
+</code></pre>
+
+<hr/>
+
+<h3><code>formatActivityMenu</code></h3>
+
+<p>The function <code>formatActivityMenu</code> does not receive any parameters.  It must return a list of strings that contains the lines of the activities menu. (Your activities can be different than the example below)</p>
+
+<p>You should choose at least 4 activities you want to include. They do not have to be the same as what are listed below.</p>
+
+<pre><code class="language-language-python">formatActivityMenu() -&gt; [&#39;Choose an activity to record&#39;, &#39;[j] Jump rope&#39;, &#39;[r] Running&#39;, &#39;[s] Sitting&#39;, &#39;[w] Walking&#39;]
+</code></pre>
+
+<hr/>
+
+<h3><code>getUserString</code></h3>
+
+<p>The function <code>getUserString</code> receives one parameter, a string that contains a prompt for input.  It must return a string that contains the text input by the user, with any leading and trailing whitespace removed.  If the user gives an empty string, prompt them again, until they give a non-empty string.  Note that this function interacts with the user, so there will be output to the screen and input from the keyboard when it is called.</p>
+
+<pre><code class="language-language-python">getUserString(&#34;What is your name? &#34;) -&gt; &#39;It is Arthur, King of the Britons.&#39;
+getUserString(&#34;What is your quest? &#34;) -&gt; &#39;To seek the Holy Grail.&#39;
+getUserString(&#34;What is the air-speed velocity of an unladen swallow?&#34;) -&gt; &#39;What do you mean? An African or European swallow?&#39;
+</code></pre>
+
+<hr/>
+
+<h3><code>getUserFloat</code></h3>
+
+<p>The function <code>getUserFloat</code> receives one parameter, a string that contains a prompt for input.  It must return a float that contains the number input by the user. If the user enters a non-number or a number less than or equal to zero it should prompt them again. To accomplish this you might consider using a <a href="https://docs.python.org/3/tutorial/errors.html#handling-exceptions">try/except clause</a> which allows you to try an execute some code (convert user&#39;s input to a float) and recover if it fails.</p>
+
+<p><strong>Example</strong></p>
+
+<pre><code class="language-language-python">try:
+    # try some code
+    float(&#39;this is a string&#39;)
+except:
+    # this gets called if anything above fails.
+    print(&#34;you can&#39;t convert that string to a float&#34;)
+</code></pre>
+
+<pre><code class="language-language-python">getUserFloat(&#39;Type 1.7 &#39;) -&gt; 1.7
+getUserFloat(&#39;Type 1 &#39;) -&gt; 1.0
+getUserFloat(&#39;Type in an integer &#39;) -&gt; 10.0
+getUserFloat(&#39;Type in a float &#39;) -&gt; 3.142
+</code></pre>
+
+<hr/>
+
+<h3><code>createCaloricBalance</code></h3>
+
+<p>This function receives no parameters. It will prompt the user for their gender (f or m), their age (float or int), their height in inches (float or int), and their weight in pounds (float or int). It will create an instance of <code>CaloricBalance</code> and return that instance.</p>
+
+<p><em>You will need to import your caloric_balance module.</em></p>
+
+<pre><code class="language-language-python">createCaloricBalance() -&gt; prompts user for input and returns an instance of CaloricBalance()
+</code></pre>
+
+<hr/>
+
+<h3><code>recordActivityAction</code></h3>
+
+<p>This function receives one parameter an instance of the <code>CaloricBalance</code> class
+(note: I would not call the parameter &#34;CaloricBalance&#34;). It prints the
+activities menu and prompts the user to choose an activity.</p>
+
+<p>If the user enters a valid option it then prompts the user to enter the number of minutes of activity and then calls the <code>recordActivity</code> method on the instance <em>(to do this you need to map the activity option to a value from the activities table linked above)</em>. Lastly it should print a success message to the user with their new caloric balance.</p>
+
+<p>If the user enters an invalid option it should print an error message, then return.</p>
+
+<pre><code class="language-language-python">recordActivity(caloricbalance) -&gt; prints messages to the user, ask for input, and updates the caloric balance.
+</code></pre>
+
+<hr/>
+
+<h3><code>eatFoodAction</code></h3>
+
+<p>This function receives one parameter a <code>CaloricBalance</code> instance. It prompts the user to enter the number of calories consumed. It then calls the <code>eatFood</code> method on the instance. Lastly it should print a success message to the user with their new caloric balance.</p>
+
+<pre><code class="language-language-python">eatFoodAction(caloricbalance) -&gt; asks the user for input, and updates the caloric balance.
+</code></pre>
+
+<hr/>
+
+<h3><code>quitAction</code></h3>
+
+<p>This function receives one parameter a <code>CaloricBalance</code> instance.  This function will display a message to the user indicating the end of the program.  It will then terminate the program using <code>sys.exit( 0 )</code>.  Be sure to do the correct <code>import</code> statement.  This function does not return anything.</p>
+
+<pre><code class="language-language-python">quitAction(caloricbalance) -&gt; the program will end
+</code></pre>
+
+<hr/>
+
+<h3><code>applyAction</code></h3>
+
+<p>This function receives two parameters a <code>CaloricBalance</code> instance, and choice a string.  This function will call the appropriate action function based on the choice string.  If the choice string does not match any accepted choices, it will display a message to the user.  This function does not return anything.</p>
+
+<pre><code class="language-language-python">applyAction(caloricbalance, &#34;f&#34;) -&gt; eatFoodAction gets called and caloric balance is updated.
+applyAction(caloricbalance, &#34;a&#34;) -&gt; recordActivityAction gets called and caloric balance is updated.
+applyAction(caloricbalance, &#34;q&#34;) -&gt; the program will terminate.
+applyAction(caloricbalance, &#34;x&#34;) -&gt; the user will receive an error message.
+</code></pre>
+
+<hr/>
+
+<h3><code>main</code></h3>
+
+<p>The function <code>main</code> receives no parameters, and returns nothing.  This function ties everything together.  Creates an instance of CaloricBalance, repeatedly asking the user their choice and taking appropriate action. <em>Note: everything you need to finish the main function should be contained in the functions above.</em></p>
+
+<pre><code class="language-language-python">main() -&gt; the program runs.
+</code></pre>
+
+<hr/>
+
+<h3>Finishing Up</h3>
+
+<p>Lastly add this snippet at the bottom of your file which will execute your <code>main()</code> function when you run <code>main.py</code> but will allow it to be imported into the unittest files without executing the main function.</p>
+
+<pre><code class="language-language-python">if __name__ == &#39;__main__&#39;:
+    main()
+</code></pre>
+</body></html>

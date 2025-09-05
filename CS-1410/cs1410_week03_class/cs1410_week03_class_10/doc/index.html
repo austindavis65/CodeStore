@@ -1,0 +1,32 @@
+<html><head></head><body><h2>Exercise: modify04</h2>
+
+<h3>Description</h3>
+
+<p>Write a function that receives a <code>Pencil</code> object as a parameter. It should click
+the pencil until its current lead length is at the maximum possible value, then
+return the pencil. Assume that the given pencil will always have enough lead.</p>
+
+<h3>Function Name</h3>
+
+<p>modify04</p>
+
+<h3>Parameters</h3>
+
+<ul>
+<li><code>pencil</code>: A <code>Pencil</code> object</li>
+</ul>
+
+<h3>Return Value</h3>
+
+<p>The modified <code>pencil</code> with its current lead length at the maximum.</p>
+
+<h3>Examples</h3>
+
+<pre><code>import pencil
+p = pencil.Pencil(5)
+p.click()
+print(p.get_current_lead_length()) # -&gt; 9
+p = modify04(p)
+print(p.get_current_lead_length()) # -&gt; 10
+</code></pre>
+</body></html>

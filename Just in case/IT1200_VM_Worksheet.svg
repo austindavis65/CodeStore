@@ -1,0 +1,4693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg9"
+   width="816"
+   height="1056"
+   viewBox="0 0 816 1056"
+   sodipodi:docname="IT1200_VM_Worksheet.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath31">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path29" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath47">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path45" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path61" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath79">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path77" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath95">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path93" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath111">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path109" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath127">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path125" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath143">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path141" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath159">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path157" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath175">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path173" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath191">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path189" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath207">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path205" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath223">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path221" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath239">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path237" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath255">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path253" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath271">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path269" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath287">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path285" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath303">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path301" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath319">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path317" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath335">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path333" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath351">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path349" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath367">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path365" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath383">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path381" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath401">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path399" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath417">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path415" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath433">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path431" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath449">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path447" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath465">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path463" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath481">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path479" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath497">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path495" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath513">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path511" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath529">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path527" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath545">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path543" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath561">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path559" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath577">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path575" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath593">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path591" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath609">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path607" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath625">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path623" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath641">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path639" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath657">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path655" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath673">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path671" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath689">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path687" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath705">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path703" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath721">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path719" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath737">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path735" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath753">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path751" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath769">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path767" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath785">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path783" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath801">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path799" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath817">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path815" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath833">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path831" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath849">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path847" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath865">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path863" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath881">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path879" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath897">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path895" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath913">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path911" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath929">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path927" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath945">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path943" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath961">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path959" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath977">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path975" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath993">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path991" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1009">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1007" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1025">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1023" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1041">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1039" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1057">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1055" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1073">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1071" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1089">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1105">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1103" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1121">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1119" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1137">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1135" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1153">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1151" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1169">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1167" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1185">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1183" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1201">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1199" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1217">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1215" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1233">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1231" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1249">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1247" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1265">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1263" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1281">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1279" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1297">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1295" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1313">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1311" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1329">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1327" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1345">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1343" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1361">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1359" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1377">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1375" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1393">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1391" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1409">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1407" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1425">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1423" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1441">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1439" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1457">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1455" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1473">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1471" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1489">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1487" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1505">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1503" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1521">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1519" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1537">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1535" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1553">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1551" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1569">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1567" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1585">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1583" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1601">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1599" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1617">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1615" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1633">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1631" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1649">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1647" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1665">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1663" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1683">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1681" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1699">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1697" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1715">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1713" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1731">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1729" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1747">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1745" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1763">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1761" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1779">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1777" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1795">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1793" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1811">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1809" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1827">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1825" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1843">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1841" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1859">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1857" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1875">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1873" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1891">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1889" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1907">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1905" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1923">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1921" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1939">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1937" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1955">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1953" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1971">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1969" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1987">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path1985" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2003">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2001" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2019">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2017" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2035">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2033" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2051">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2049" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2067">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2065" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2083">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2081" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2099">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2097" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2115">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2113" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2131">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2129" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2147">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2145" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2163">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2161" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2179">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2177" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2195">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2193" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2211">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2209" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2227">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2225" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2243">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2241" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2259">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2257" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2275">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2273" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2291">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2289" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2307">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2305" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2323">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2321" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2339">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2337" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2355">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2353" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2371">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2369" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2387">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2385" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2403">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2401" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2419">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2417" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2435">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2433" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2451">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2449" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2467">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2465" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2483">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2481" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2499">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2497" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2515">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2513" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2531">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2529" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2547">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2545" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2563">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2561" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2579">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2577" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2595">
+      <path
+         d="M 0,0 H 613 V 793 H 0 Z"
+         id="path2593" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.0686955"
+     inkscape:cx="384.11316"
+     inkscape:cy="266.68027"
+     inkscape:window-width="958"
+     inkscape:window-height="981"
+     inkscape:window-x="952"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g17">
+    <inkscape:page
+       x="0"
+       y="0"
+       id="page15"
+       width="816"
+       height="1056" />
+  </sodipodi:namedview>
+  <g
+     id="g17"
+     inkscape:groupmode="layer"
+     inkscape:label="Page 1"
+     transform="matrix(1.3333333,0,0,1.3333333,0,2.64e-5)">
+    <g
+       id="g19" />
+    <g
+       id="g21">
+      <g
+         id="g23">
+        <g
+           id="g25">
+          <g
+             id="g27"
+             clip-path="url(#clipPath31)">
+            <g
+               id="g33">
+              <text
+                 xml:space="preserve"
+                 transform="translate(190.33997,47.400057)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text37"><tspan
+                   x="0 7.0957031 17.523985 20.272875 31.147875 37.635048 41.96067 47.720436 52.507545 58.994999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan35">VM Workshe</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g39">
+        <g
+           id="g41">
+          <g
+             id="g43"
+             clip-path="url(#clipPath47)">
+            <g
+               id="g49">
+              <text
+                 xml:space="preserve"
+                 transform="translate(255.40997,47.400057)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text53"><tspan
+                   x="0 6.0050159 10.165172 12.950063 16.688343 22.448109 28.429125 34.422142 40.897594 43.538483 47.698639 54.198093 57.085358 61.872467 64.633362 68.793518 75.30497 81.297981 84.046875 90.051888 96.407341 100.5675 103.59876 107.90039 113.9054"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan51">et (keep this the entire </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g55">
+        <g
+           id="g57">
+          <g
+             id="g59"
+             clip-path="url(#clipPath63)">
+            <g
+               id="g65">
+              <text
+                 xml:space="preserve"
+                 transform="translate(372.06997,47.400057)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text69"><tspan
+                   x="0 4.7871094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan67">se</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g71">
+        <g
+           id="g73">
+          <g
+             id="g75"
+             clip-path="url(#clipPath79)">
+            <g
+               id="g81">
+              <text
+                 xml:space="preserve"
+                 transform="translate(382.86997,47.400057)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text85"><tspan
+                   x="0 9.7257185 15.718735 20.505844 24.714001 30.707016"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan83">mester</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g87">
+        <g
+           id="g89">
+          <g
+             id="g91"
+             clip-path="url(#clipPath95)">
+            <g
+               id="g97">
+              <text
+                 xml:space="preserve"
+                 transform="translate(417.90997,47.400057)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text101"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan99">)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g103">
+        <g
+           id="g105">
+          <g
+             id="g107"
+             clip-path="url(#clipPath111)">
+            <g
+               id="g113">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,69.360054)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text117"><tspan
+                   x="0 7.0957031 12.121922 19.429407 27.333704 30.094593 36.071156"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan115">VLAN #:</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g119">
+        <g
+           id="g121">
+          <g
+             id="g123"
+             clip-path="url(#clipPath127)">
+            <g
+               id="g129">
+              <text
+                 xml:space="preserve"
+                 transform="translate(83.569775,69.360054)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;white-space:pre;inline-size:88.0057;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text133"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4160">3206__________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g135">
+        <g
+           id="g137">
+          <g
+             id="g139"
+             clip-path="url(#clipPath143)">
+            <g
+               id="g145">
+              <text
+                 xml:space="preserve"
+                 transform="translate(149.9,69.360054)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text149"><tspan
+                   x="0 5.8805623"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan147">__</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g151">
+        <g
+           id="g153">
+          <g
+             id="g155"
+             clip-path="url(#clipPath159)">
+            <g
+               id="g161">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,91.340054)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text165"><tspan
+                   x="0 3.1992188 9.5859375 12.679688 17.466797"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan163">IP’s:</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g167">
+        <g
+           id="g169">
+          <g
+             id="g171"
+             clip-path="url(#clipPath175)">
+            <g
+               id="g177">
+              <text
+                 xml:space="preserve"
+                 transform="translate(75.863994,91.340054)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;white-space:pre;inline-size:239.081;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text181"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4162">144.38.222.104-144.38.222.111_____________</tspan><tspan
+                   x="0"
+                   y="15.447964"
+                   id="tspan4164">_</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g183">
+        <g
+           id="g185">
+          <g
+             id="g187"
+             clip-path="url(#clipPath191)">
+            <g
+               id="g193">
+              <text
+                 xml:space="preserve"
+                 transform="translate(309.04997,91.340054)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text197"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan195">_</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g199">
+        <g
+           id="g201">
+          <g
+             id="g203"
+             clip-path="url(#clipPath207)">
+            <g
+               id="g209">
+              <text
+                 xml:space="preserve"
+                 transform="translate(314.92997,91.340054)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text213"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.954813 35.859375 41.835938 47.848499 53.825062 59.837624 65.706184 71.682747 77.587311 83.563873"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan211">_______________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g215">
+        <g
+           id="g217">
+          <g
+             id="g219"
+             clip-path="url(#clipPath223)">
+            <g
+               id="g225">
+              <text
+                 xml:space="preserve"
+                 transform="translate(404.58997,91.340054)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text229"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.847939 47.824501"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan227">_________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g231">
+        <g
+           id="g233">
+          <g
+             id="g235"
+             clip-path="url(#clipPath239)">
+            <g
+               id="g241">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,113.30006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text245"><tspan
+                   x="0 7.6464844 13.570312 17.730469 23.771484 32.712891 38.636719 44.260311 47.606861 50.355751 54.094032 59.717907 63.878063 69.801888 74.103516 78.263672 81.174934 87.650391 93.291847 96.040733 99.239952 105.62667 108.33956 114.26813 116.90902 122.99105"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan243">Gateway: (Starting IP + 1)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g247">
+        <g
+           id="g249">
+          <g
+             id="g251"
+             clip-path="url(#clipPath255)">
+            <g
+               id="g257">
+              <text
+                 xml:space="preserve"
+                 transform="translate(165.62,113.30006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;white-space:pre;inline-size:163.463;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text261"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4166">144.38.222.105______________</tspan><tspan
+                   x="0"
+                   y="15.447964"
+                   id="tspan4168">_</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g263">
+        <g
+           id="g265">
+          <g
+             id="g267"
+             clip-path="url(#clipPath271)">
+            <g
+               id="g273">
+              <text
+                 xml:space="preserve"
+                 transform="translate(321.04997,113.30006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text277"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.847939 47.824501 53.837063 59.717625 65.694191 71.586746 77.563309 83.575874 89.552437"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan275">________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g279">
+        <g
+           id="g281">
+          <g
+             id="g283"
+             clip-path="url(#clipPath287)">
+            <g
+               id="g289">
+              <text
+                 xml:space="preserve"
+                 transform="translate(416.70997,113.30006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text293"><tspan
+                   x="0 5.9765625 11.989125 17.869688 23.846251 29.858812 35.835377"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan291">_______</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g295">
+        <g
+           id="g297">
+          <g
+             id="g299"
+             clip-path="url(#clipPath303)">
+            <g
+               id="g305">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,135.26006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text309"><tspan
+                   x="0 7.6464844 15.480469 18.679688"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan307">GUI </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g311">
+        <g
+           id="g313">
+          <g
+             id="g315"
+             clip-path="url(#clipPath319)">
+            <g
+               id="g321">
+              <text
+                 xml:space="preserve"
+                 transform="translate(57.479997,135.26006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text325"><tspan
+                   x="0 5.671875 12.111328 18.586781 25.026234 31.067249 35.131405 38.489952 41.202843 44.977123 50.951157 57.033188 63.17522"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan323">Subnet: (256 </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g327">
+        <g
+           id="g329">
+          <g
+             id="g331"
+             clip-path="url(#clipPath335)">
+            <g
+               id="g337">
+              <text
+                 xml:space="preserve"
+                 transform="translate(123.38,135.26006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text341"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan339">–</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g343">
+        <g
+           id="g345">
+          <g
+             id="g347"
+             clip-path="url(#clipPath351)">
+            <g
+               id="g353">
+              <text
+                 xml:space="preserve"
+                 transform="translate(132.14,135.26006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text357"><tspan
+                   x="0 5.9980311 8.7469215 12.485203 15.684422 22.07114 25.068892 29.856001 33.59428 36.307171 42.283733 45.080624 51.078655 57.160686 63.31472"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan355">8 (IP’s) = 248)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g359">
+        <g
+           id="g361">
+          <g
+             id="g363"
+             clip-path="url(#clipPath367)">
+            <g
+               id="g369">
+              <text
+                 xml:space="preserve"
+                 transform="translate(199.21997,135.26006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text373"><tspan
+                   x="0 3.2385468"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan371">: </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g375">
+        <g
+           id="g377">
+          <g
+             id="g379"
+             clip-path="url(#clipPath383)">
+            <g
+               id="g385">
+              <text
+                 xml:space="preserve"
+                 transform="translate(205.21997,135.26006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Courier New';-inkscape-font-specification:CourierNewPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text389"><tspan
+                   x="0 7.2011719 14.402344 21.603516 28.804688 36.005859 43.207031 50.408203 57.609375 64.810547 72.011719 79.212891 86.414062 93.615234 100.81641"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan387">255.255.255.248</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path
+         d="m 205.219,137.66 h 108.02 v 1.199 h -108.02 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path391" />
+      <g
+         id="g393">
+        <g
+           id="g395">
+          <g
+             id="g397"
+             clip-path="url(#clipPath401)">
+            <g
+               id="g403">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,157.70006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text407"><tspan
+                   x="0 6.3515625 11.425781"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan405">CLI</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g409">
+        <g
+           id="g411">
+          <g
+             id="g413"
+             clip-path="url(#clipPath417)">
+            <g
+               id="g419">
+              <text
+                 xml:space="preserve"
+                 transform="translate(53.399997,157.70006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text423"><tspan
+                   x="0 5.671875 12.111328 18.586781 25.026234 31.067249 35.131405 38.489952"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan421">Subnet: </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g425">
+        <g
+           id="g427">
+          <g
+             id="g429"
+             clip-path="url(#clipPath433)">
+            <g
+               id="g435">
+              <text
+                 xml:space="preserve"
+                 transform="translate(94.703994,157.70006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text439"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan437">(</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g441">
+        <g
+           id="g443">
+          <g
+             id="g445"
+             clip-path="url(#clipPath449)">
+            <g
+               id="g451">
+              <text
+                 xml:space="preserve"
+                 transform="translate(98.423994,157.70006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text455"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan453">S</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g457">
+        <g
+           id="g459">
+          <g
+             id="g461"
+             clip-path="url(#clipPath465)">
+            <g
+               id="g467">
+              <text
+                 xml:space="preserve"
+                 transform="translate(104.06,157.70006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text471"><tspan
+                   x="0 4.1601562 10.083984 14.38561 18.473766 21.457031 27.896484 33.585938 36.298828 39.534046"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan469">tarting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g473">
+        <g
+           id="g475">
+          <g
+             id="g477"
+             clip-path="url(#clipPath481)">
+            <g
+               id="g483">
+              <text
+                 xml:space="preserve"
+                 transform="translate(150.02,157.70006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text487"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan485">/</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g489">
+        <g
+           id="g491">
+          <g
+             id="g493"
+             clip-path="url(#clipPath497)">
+            <g
+               id="g499">
+              <text
+                 xml:space="preserve"
+                 transform="translate(155.06,157.70006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text503"><tspan
+                   x="0 6.118031 12.236062"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan501">29)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g505">
+        <g
+           id="g507">
+          <g
+             id="g509"
+             clip-path="url(#clipPath513)">
+            <g
+               id="g515">
+              <text
+                 xml:space="preserve"
+                 transform="translate(181.87155,157.70006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;white-space:pre;inline-size:245.823;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text519"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4170">144.38.222.104/29_________________________</tspan><tspan
+                   x="0"
+                   y="15.447964"
+                   id="tspan4172">_</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g521">
+        <g
+           id="g523">
+          <g
+             id="g525"
+             clip-path="url(#clipPath529)">
+            <g
+               id="g531">
+              <text
+                 xml:space="preserve"
+                 transform="translate(422.10997,157.70006)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text535"><tspan
+                   x="0 5.9765625 11.881125 17.857687 23.870251 29.846813"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan533">______</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g537">
+        <g
+           id="g539">
+          <g
+             id="g541"
+             clip-path="url(#clipPath545)">
+            <g
+               id="g547">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,179.66003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text551"><tspan
+                   x="0 6.7265625 11.028188 17.479359 23.403187 29.84264 34.864124 40.787952 45.575062 49.771217 53.021767 55.734657 59.508938 64.523155 70.398987 75.186096 79.394249 82.143143 85.342361 91.72908 94.369972 97.353233 103.82869 106.46958 110.7712 116.64703 123.12248 128.76393 134.75696"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan549">Broadcast: (Last IP in range)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g553">
+        <g
+           id="g555">
+          <g
+             id="g557"
+             clip-path="url(#clipPath561)">
+            <g
+               id="g563">
+              <text
+                 xml:space="preserve"
+                 transform="translate(182.75866,179.66003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;white-space:pre;inline-size:258.491;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text567"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4174">144.38.222.111______________________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g569">
+        <g
+           id="g571">
+          <g
+             id="g573"
+             clip-path="url(#clipPath577)">
+            <g
+               id="g579">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,216.26003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text583"><tspan
+                   x="0 7.8339844 12.621094 18.484922 24.924376 27.931641 33.936657 36.685547 39.884766 46.271484 49.365234 54.152344"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan581">Usable IP’s:</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g585">
+        <g
+           id="g587">
+          <g
+             id="g589"
+             clip-path="url(#clipPath593)">
+            <g
+               id="g595">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,230.93003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text599"><tspan
+                   x="0 6.0050159 11.518687 17.442516 27.120234 33.559689 36.578953 42.571968 45.918514"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan597">example: </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g601">
+        <g
+           id="g603">
+          <g
+             id="g605"
+             clip-path="url(#clipPath609)">
+            <g
+               id="g611">
+              <text
+                 xml:space="preserve"
+                 transform="translate(84.743994,230.93003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text615"><tspan
+                   x="0 6.0820312 12.224063 18.306093 21.33539 27.345423 33.427452"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan613">144.38.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g617">
+        <g
+           id="g619">
+          <g
+             id="g621"
+             clip-path="url(#clipPath625)">
+            <g
+               id="g627">
+              <text
+                 xml:space="preserve"
+                 transform="translate(121.22,230.93003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text631"><tspan
+                   x="0 6.118031 12.236062"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan629">200</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g633">
+        <g
+           id="g635">
+          <g
+             id="g637"
+             clip-path="url(#clipPath641)">
+            <g
+               id="g643">
+              <text
+                 xml:space="preserve"
+                 transform="translate(139.58,230.93003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text647"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan645">.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g649">
+        <g
+           id="g651">
+          <g
+             id="g653"
+             clip-path="url(#clipPath657)">
+            <g
+               id="g659">
+              <text
+                 xml:space="preserve"
+                 transform="translate(142.58,230.93003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text663"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan661">2</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g665">
+        <g
+           id="g667">
+          <g
+             id="g669"
+             clip-path="url(#clipPath673)">
+            <g
+               id="g675">
+              <text
+                 xml:space="preserve"
+                 transform="translate(162.26,230.93003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text679"><tspan
+                   x="0 3.6021094 9.930234 14.149828 16.898718"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan677">for G</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g681">
+        <g
+           id="g683">
+          <g
+             id="g685"
+             clip-path="url(#clipPath689)">
+            <g
+               id="g691">
+              <text
+                 xml:space="preserve"
+                 transform="translate(186.73997,230.93003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text695"><tspan
+                   x="0 7.6992188 10.674656 13.423547 16.177454 22.53014 27.091499 31.159031 36.907078 39.660984"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan693">UI install</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g697">
+        <g
+           id="g699">
+          <g
+             id="g701"
+             clip-path="url(#clipPath705)">
+            <g
+               id="g707">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,245.57003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text711"><tspan
+                   x="0 6.118031"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan709">1.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g713">
+        <g
+           id="g715">
+          <g
+             id="g717"
+             clip-path="url(#clipPath721)">
+            <g
+               id="g723">
+              <text
+                 xml:space="preserve"
+                 transform="translate(47.879997,245.57003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text727"><tspan
+                   x="0 3.6386719 8.2840309 12.351562 18.099609 22.283203 26.374735 29.020641 35.361328 41.009766 43.722656 46.746094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan725">(starting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g729">
+        <g
+           id="g731">
+          <g
+             id="g733"
+             clip-path="url(#clipPath737)">
+            <g
+               id="g739">
+              <text
+                 xml:space="preserve"
+                 transform="translate(100.94,245.57003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text743"><tspan
+                   x="0 5.8805623 11.962594"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan741">+2)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g745">
+        <g
+           id="g747">
+          <g
+             id="g749"
+             clip-path="url(#clipPath753)">
+            <g
+               id="g755">
+              <text
+                 xml:space="preserve"
+                 transform="translate(121.96578,245.57003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;white-space:pre;inline-size:143.438;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text759"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4176">144.38.222.106___________</tspan><tspan
+                   x="0"
+                   y="15"
+                   id="tspan4178">_ </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g761">
+        <g
+           id="g763">
+          <g
+             id="g765"
+             clip-path="url(#clipPath769)">
+            <g
+               id="g771">
+              <text
+                 xml:space="preserve"
+                 transform="translate(292.60997,245.57003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;white-space:pre;inline-size:124.617;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text775"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4180">for Windows Install___</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g777">
+        <g
+           id="g779">
+          <g
+             id="g781"
+             clip-path="url(#clipPath785)">
+            <g
+               id="g787">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,267.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text791"><tspan
+                   x="0 6.118031"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan789">2.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g793">
+        <g
+           id="g795">
+          <g
+             id="g797"
+             clip-path="url(#clipPath801)">
+            <g
+               id="g803">
+              <text
+                 xml:space="preserve"
+                 transform="translate(47.879997,267.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text807"><tspan
+                   x="0 3.6386719 8.2840309 12.351562 18.099609 22.283203 26.374735 29.020641 35.361328 41.009766 43.722656 46.746094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan805">(starting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g809">
+        <g
+           id="g811">
+          <g
+             id="g813"
+             clip-path="url(#clipPath817)">
+            <g
+               id="g819">
+              <text
+                 xml:space="preserve"
+                 transform="translate(100.94,267.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text823"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan821">+</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g825">
+        <g
+           id="g827">
+          <g
+             id="g829"
+             clip-path="url(#clipPath833)">
+            <g
+               id="g835">
+              <text
+                 xml:space="preserve"
+                 transform="translate(106.82,267.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text839"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan837">3</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g841">
+        <g
+           id="g843">
+          <g
+             id="g845"
+             clip-path="url(#clipPath849)">
+            <g
+               id="g851">
+              <text
+                 xml:space="preserve"
+                 transform="translate(112.94,267.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text855"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan853">)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g857">
+        <g
+           id="g859">
+          <g
+             id="g861"
+             clip-path="url(#clipPath865)">
+            <g
+               id="g867">
+              <text
+                 xml:space="preserve"
+                 transform="translate(121.96578,267.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;white-space:pre;inline-size:150.818;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text871"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4182">144.38.222.107____________</tspan><tspan
+                   x="0"
+                   y="15"
+                   id="tspan4184">_ </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g873">
+        <g
+           id="g875">
+          <g
+             id="g877"
+             clip-path="url(#clipPath881)">
+            <g
+               id="g883">
+              <text
+                 xml:space="preserve"
+                 transform="translate(292.60997,267.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text887"><tspan
+                   x="0 3.4101093 9.7382345 13.921828 16.634718 22.61128 28.587843 34.564407 40.54097 46.517532 52.494095 58.470657 64.44722 70.423782 76.400345 82.376907 88.35347 94.330032 100.30659 106.28316 112.25972"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan885">for _________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g889">
+        <g
+           id="g891">
+          <g
+             id="g893"
+             clip-path="url(#clipPath897)">
+            <g
+               id="g899">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,289.49003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text903"><tspan
+                   x="0 6.118031"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan901">3.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g905">
+        <g
+           id="g907">
+          <g
+             id="g909"
+             clip-path="url(#clipPath913)">
+            <g
+               id="g915">
+              <text
+                 xml:space="preserve"
+                 transform="translate(47.879997,289.49003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text919"><tspan
+                   x="0 3.6386719 8.2840309 12.351562 18.099609 22.283203 26.374735 29.020641 35.361328 41.009766 43.722656 46.746094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan917">(starting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g921">
+        <g
+           id="g923">
+          <g
+             id="g925"
+             clip-path="url(#clipPath929)">
+            <g
+               id="g931">
+              <text
+                 xml:space="preserve"
+                 transform="translate(100.94,289.49003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text935"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan933">+</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g937">
+        <g
+           id="g939">
+          <g
+             id="g941"
+             clip-path="url(#clipPath945)">
+            <g
+               id="g947">
+              <text
+                 xml:space="preserve"
+                 transform="translate(106.82,289.49003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text951"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan949">4</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g953">
+        <g
+           id="g955">
+          <g
+             id="g957"
+             clip-path="url(#clipPath961)">
+            <g
+               id="g963">
+              <text
+                 xml:space="preserve"
+                 transform="translate(112.94,289.49003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text967"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan965">)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g969">
+        <g
+           id="g971">
+          <g
+             id="g973"
+             clip-path="url(#clipPath977)">
+            <g
+               id="g979">
+              <text
+                 xml:space="preserve"
+                 transform="translate(121.96578,289.49003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;white-space:pre;inline-size:144.245;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text983"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4186">144.38.222.108___________ </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g985">
+        <g
+           id="g987">
+          <g
+             id="g989"
+             clip-path="url(#clipPath993)">
+            <g
+               id="g995">
+              <text
+                 xml:space="preserve"
+                 transform="translate(292.60997,289.49003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text999"><tspan
+                   x="0 3.6021094 9.930234 14.149828 16.898718 22.87528 28.779844 34.756405 40.76897 46.745533 52.722095 58.626656 64.603218 70.615784 76.592346 82.604904 88.485466 94.462029 100.47459 106.35516 112.33172 118.34428 124.32085 130.3334 136.30997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan997">for _____________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1001">
+        <g
+           id="g1003">
+          <g
+             id="g1005"
+             clip-path="url(#clipPath1009)">
+            <g
+               id="g1011">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,311.45003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1015"><tspan
+                   x="0 6.118031"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1013">4.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1017">
+        <g
+           id="g1019">
+          <g
+             id="g1021"
+             clip-path="url(#clipPath1025)">
+            <g
+               id="g1027">
+              <text
+                 xml:space="preserve"
+                 transform="translate(47.879997,311.45003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1031"><tspan
+                   x="0 3.6386719 8.2840309 12.351562 18.099609 22.283203 26.374735 29.020641 35.361328 41.009766 43.722656 46.746094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1029">(starting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1033">
+        <g
+           id="g1035">
+          <g
+             id="g1037"
+             clip-path="url(#clipPath1041)">
+            <g
+               id="g1043">
+              <text
+                 xml:space="preserve"
+                 transform="translate(100.94,311.45003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1047"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1045">+</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1049">
+        <g
+           id="g1051">
+          <g
+             id="g1053"
+             clip-path="url(#clipPath1057)">
+            <g
+               id="g1059">
+              <text
+                 xml:space="preserve"
+                 transform="translate(106.82,311.45003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1063"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1061">5</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1065">
+        <g
+           id="g1067">
+          <g
+             id="g1069"
+             clip-path="url(#clipPath1073)">
+            <g
+               id="g1075">
+              <text
+                 xml:space="preserve"
+                 transform="translate(112.94,311.45003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1079"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1077">)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1081">
+        <g
+           id="g1083">
+          <g
+             id="g1085"
+             clip-path="url(#clipPath1089)">
+            <g
+               id="g1091">
+              <text
+                 xml:space="preserve"
+                 transform="translate(121.96578,311.45003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;white-space:pre;inline-size:149.52;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1095"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4188">144.38.222.109____________ </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1097">
+        <g
+           id="g1099">
+          <g
+             id="g1101"
+             clip-path="url(#clipPath1105)">
+            <g
+               id="g1107">
+              <text
+                 xml:space="preserve"
+                 transform="translate(292.60997,311.45003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1111"><tspan
+                   x="0 3.6021094 9.930234 14.149828 16.898718 22.87528 28.779844 34.756405 40.76897 46.745533 52.722095 58.626656 64.603218 70.615784 76.592346 82.604904 88.485466 94.462029 100.47459 106.35516 112.33172 118.34428 124.32085 130.3334 136.30997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1109">for _____________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1113">
+        <g
+           id="g1115">
+          <g
+             id="g1117"
+             clip-path="url(#clipPath1121)">
+            <g
+               id="g1123">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,333.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1127"><tspan
+                   x="0 6.118031"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1125">5.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1129">
+        <g
+           id="g1131">
+          <g
+             id="g1133"
+             clip-path="url(#clipPath1137)">
+            <g
+               id="g1139">
+              <text
+                 xml:space="preserve"
+                 transform="translate(47.879997,333.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1143"><tspan
+                   x="0 3.6386719 8.2840309 12.351562 18.099609 22.283203 26.374735 29.020641 35.361328 41.009766 43.722656 46.746094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1141">(starting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1145">
+        <g
+           id="g1147">
+          <g
+             id="g1149"
+             clip-path="url(#clipPath1153)">
+            <g
+               id="g1155">
+              <text
+                 xml:space="preserve"
+                 transform="translate(100.94,333.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1159"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1157">+</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1161">
+        <g
+           id="g1163">
+          <g
+             id="g1165"
+             clip-path="url(#clipPath1169)">
+            <g
+               id="g1171">
+              <text
+                 xml:space="preserve"
+                 transform="translate(106.82,333.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1175"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1173">6</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1177">
+        <g
+           id="g1179">
+          <g
+             id="g1181"
+             clip-path="url(#clipPath1185)">
+            <g
+               id="g1187">
+              <text
+                 xml:space="preserve"
+                 transform="translate(112.94,333.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1191"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1189">)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1193">
+        <g
+           id="g1195">
+          <g
+             id="g1197"
+             clip-path="url(#clipPath1201)">
+            <g
+               id="g1203">
+              <text
+                 xml:space="preserve"
+                 transform="translate(121.96578,333.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;white-space:pre;inline-size:151.625;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1207"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4190">144.38.222.110____________ </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1209">
+        <g
+           id="g1211">
+          <g
+             id="g1213"
+             clip-path="url(#clipPath1217)">
+            <g
+               id="g1219">
+              <text
+                 xml:space="preserve"
+                 transform="translate(292.60997,333.53003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1223"><tspan
+                   x="0 3.6021094 9.930234 14.149828 16.898718 22.87528 28.779844 34.756405 40.76897 46.745533 52.722095 58.626656 64.603218 70.615784 76.592346 82.604904 88.485466 94.462029 100.47459 106.35516 112.33172 118.34428 124.32085 130.3334 136.30997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1221">for _____________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1225">
+        <g
+           id="g1227">
+          <g
+             id="g1229"
+             clip-path="url(#clipPath1233)">
+            <g
+               id="g1235">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,355.49003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1239"><tspan
+                   x="0 7.5644531 15.46875 21.140625 23.853516 29.525391 35.518406 39.832031 45.509766 51.466782 55.780407"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1237">DNS Servers</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1241">
+        <g
+           id="g1243">
+          <g
+             id="g1245"
+             clip-path="url(#clipPath1249)">
+            <g
+               id="g1251">
+              <text
+                 xml:space="preserve"
+                 transform="translate(96.623994,355.49003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1255"><tspan
+                   x="0 3.358547"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1253">: </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1257">
+        <g
+           id="g1259">
+          <g
+             id="g1261"
+             clip-path="url(#clipPath1265)">
+            <g
+               id="g1267">
+              <text
+                 xml:space="preserve"
+                 transform="translate(102.74,355.49003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1271"><tspan
+                   x="0 7.2011719 14.402344 21.603516 28.804688 36.005859 43.207031 50.276203 57.477375 64.678543 71.879715 79.080887 86.282059 93.483231 100.6844 107.88557 115.08675 122.28792 129.48909 136.69026 143.89143 151.09261 158.29378 165.49495 172.69612 179.89729"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1269">144.38.192.2, 144.38.192.3</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1273">
+        <g
+           id="g1275">
+          <g
+             id="g1277"
+             clip-path="url(#clipPath1281)">
+            <g
+               id="g1283">
+              <text
+                 xml:space="preserve"
+                 transform="translate(347.46997,355.49003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1287"><tspan
+                   x="0 5.671875 11.640891 17.516718 21.830343 26.851828 33.339283 36.088173 42.527626 48.906796 58.632515 64.508347 67.503609 73.943062 78.730171"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1285">Search domains:</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1289">
+        <g
+           id="g1291">
+          <g
+             id="g1293"
+             clip-path="url(#clipPath1297)">
+            <g
+               id="g1299">
+              <text
+                 xml:space="preserve"
+                 transform="translate(432.42997,355.49003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1303"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1301">i</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1305">
+        <g
+           id="g1307">
+          <g
+             id="g1309"
+             clip-path="url(#clipPath1313)">
+            <g
+               id="g1315">
+              <text
+                 xml:space="preserve"
+                 transform="translate(439.62997,355.49003)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;white-space:pre;inline-size:131.463;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1319"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4192">t1200.cs.dixie.edu</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1321">
+        <g
+           id="g1323">
+          <g
+             id="g1325"
+             clip-path="url(#clipPath1329)">
+            <g
+               id="g1331">
+              <text
+                 xml:space="preserve"
+                 transform="translate(190.33997,437.95003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1335"><tspan
+                   x="0 7.0957031 17.523985 20.272875 31.147875 37.635048 41.96067 47.720436 52.507545 58.994999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1333">VM Workshe</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1337">
+        <g
+           id="g1339">
+          <g
+             id="g1341"
+             clip-path="url(#clipPath1345)">
+            <g
+               id="g1347">
+              <text
+                 xml:space="preserve"
+                 transform="translate(255.40997,437.95003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1351"><tspan
+                   x="0 6.0050159 10.165172 12.950063 16.688343 22.448109 28.429125 34.422142 40.897594 43.538483 47.698639 54.198093 57.085358 61.872467 64.633362 68.793518 75.30497 81.297981 84.046875 90.051888 96.407341 100.5675 103.59876 107.90039 113.9054"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1349">et (keep this the entire </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1353">
+        <g
+           id="g1355">
+          <g
+             id="g1357"
+             clip-path="url(#clipPath1361)">
+            <g
+               id="g1363">
+              <text
+                 xml:space="preserve"
+                 transform="translate(372.06997,437.95003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1367"><tspan
+                   x="0 4.7871094 10.828125 20.517843 26.52286 31.309969 35.506126 41.511139"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1365">semester</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1369">
+        <g
+           id="g1371">
+          <g
+             id="g1373"
+             clip-path="url(#clipPath1377)">
+            <g
+               id="g1379">
+              <text
+                 xml:space="preserve"
+                 transform="translate(417.90997,437.95003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1383"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1381">)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1385">
+        <g
+           id="g1387">
+          <g
+             id="g1389"
+             clip-path="url(#clipPath1393)">
+            <g
+               id="g1395">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,459.91003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1399"><tspan
+                   x="0 7.0957031 12.121922 19.429407 27.333704 30.094593 36.071156"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1397">VLAN #:</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1401">
+        <g
+           id="g1403">
+          <g
+             id="g1405"
+             clip-path="url(#clipPath1409)">
+            <g
+               id="g1411">
+              <text
+                 xml:space="preserve"
+                 transform="translate(78.143994,459.91003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1415"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.847939 47.824501 53.837063 59.717625 65.694191"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1413">____________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1417">
+        <g
+           id="g1419">
+          <g
+             id="g1421"
+             clip-path="url(#clipPath1425)">
+            <g
+               id="g1427">
+              <text
+                 xml:space="preserve"
+                 transform="translate(149.9,459.91003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1431"><tspan
+                   x="0 5.8805623"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1429">__</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1433">
+        <g
+           id="g1435">
+          <g
+             id="g1437"
+             clip-path="url(#clipPath1441)">
+            <g
+               id="g1443">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,481.87003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1447"><tspan
+                   x="0 3.1992188 9.5859375 12.679688 17.466797"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1445">IP’s:</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1449">
+        <g
+           id="g1451">
+          <g
+             id="g1453"
+             clip-path="url(#clipPath1457)">
+            <g
+               id="g1459">
+              <text
+                 xml:space="preserve"
+                 transform="translate(75.863994,481.87003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1463"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.870251 29.846813 35.859375 41.835938 47.848499 53.825062 59.729626 65.706184 71.682747 77.587311 83.563873 89.576439 95.553001 101.56556 107.54212 113.55469 119.43525 125.41181 131.42438 137.40094 143.4135 149.39006 155.29463 161.27119 167.28375 173.26031 179.27287 185.15344 191.13 197.02257 202.99913 209.01169 214.98825 221.00081 226.97737"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1461">_______________________________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1465">
+        <g
+           id="g1467">
+          <g
+             id="g1469"
+             clip-path="url(#clipPath1473)">
+            <g
+               id="g1475">
+              <text
+                 xml:space="preserve"
+                 transform="translate(309.04997,481.87003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1479"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1477">_</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1481">
+        <g
+           id="g1483">
+          <g
+             id="g1485"
+             clip-path="url(#clipPath1489)">
+            <g
+               id="g1491">
+              <text
+                 xml:space="preserve"
+                 transform="translate(314.92997,481.87003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1495"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.954813 35.859375 41.835938 47.848499 53.825062 59.837624 65.706184 71.682747 77.587311 83.563873"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1493">_______________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1497">
+        <g
+           id="g1499">
+          <g
+             id="g1501"
+             clip-path="url(#clipPath1505)">
+            <g
+               id="g1507">
+              <text
+                 xml:space="preserve"
+                 transform="translate(404.58997,481.87003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1511"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.847939 47.824501"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1509">_________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1513">
+        <g
+           id="g1515">
+          <g
+             id="g1517"
+             clip-path="url(#clipPath1521)">
+            <g
+               id="g1523">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,503.83003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1527"><tspan
+                   x="0 7.6464844 13.570312 17.730469 23.771484 32.712891 38.636719 44.260311 47.606861 50.355751 54.094032 59.717907 63.878063 69.801888 74.103516 78.263672 81.174934 87.650391 93.291847 96.040733 99.239952 105.62667 108.33956 114.26813 116.90902 122.99105"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1525">Gateway: (Starting IP + 1)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1529">
+        <g
+           id="g1531">
+          <g
+             id="g1533"
+             clip-path="url(#clipPath1537)">
+            <g
+               id="g1539">
+              <text
+                 xml:space="preserve"
+                 transform="translate(165.62,503.83003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1543"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.870251 29.846813 35.859375 41.835938 47.848499 53.825062 59.729626 65.706184 71.682747 77.659309 83.695877 89.576439 95.553001 101.56556 107.44612 113.42268 119.43525 125.41181 131.42438 137.40094 143.4135 149.29407"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1541">__________________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1545">
+        <g
+           id="g1547">
+          <g
+             id="g1549"
+             clip-path="url(#clipPath1553)">
+            <g
+               id="g1555">
+              <text
+                 xml:space="preserve"
+                 transform="translate(321.04997,503.83003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1559"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.847939 47.824501 53.837063 59.717625 65.694191 71.586746 77.563309 83.575874 89.552437"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1557">________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1561">
+        <g
+           id="g1563">
+          <g
+             id="g1565"
+             clip-path="url(#clipPath1569)">
+            <g
+               id="g1571">
+              <text
+                 xml:space="preserve"
+                 transform="translate(416.70997,503.83003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1575"><tspan
+                   x="0 5.9765625 11.989125 17.869688 23.846251 29.858812 35.835377"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1573">_______</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1577">
+        <g
+           id="g1579">
+          <g
+             id="g1581"
+             clip-path="url(#clipPath1585)">
+            <g
+               id="g1587">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,525.94003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1591"><tspan
+                   x="0 7.6464844 15.480469 18.679688"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1589">GUI </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1593">
+        <g
+           id="g1595">
+          <g
+             id="g1597"
+             clip-path="url(#clipPath1601)">
+            <g
+               id="g1603">
+              <text
+                 xml:space="preserve"
+                 transform="translate(57.479997,525.94003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1607"><tspan
+                   x="0 5.671875 12.111328 18.586781 25.026234 31.067249 35.131405 38.489952 41.202843 44.977123 50.951157 57.033188 63.17522"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1605">Subnet: (256 </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1609">
+        <g
+           id="g1611">
+          <g
+             id="g1613"
+             clip-path="url(#clipPath1617)">
+            <g
+               id="g1619">
+              <text
+                 xml:space="preserve"
+                 transform="translate(123.38,525.94003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1623"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1621">–</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1625">
+        <g
+           id="g1627">
+          <g
+             id="g1629"
+             clip-path="url(#clipPath1633)">
+            <g
+               id="g1635">
+              <text
+                 xml:space="preserve"
+                 transform="translate(132.14,525.94003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1639"><tspan
+                   x="0 5.9980311 8.7469215 12.485203 15.684422 22.07114 25.068892 29.856001 33.59428 36.307171 42.283733 45.080624 51.078655 57.160686 63.31472"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1637">8 (IP’s) = 248)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1641">
+        <g
+           id="g1643">
+          <g
+             id="g1645"
+             clip-path="url(#clipPath1649)">
+            <g
+               id="g1651">
+              <text
+                 xml:space="preserve"
+                 transform="translate(199.21997,525.94003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1655"><tspan
+                   x="0 3.2385468"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1653">: </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1657">
+        <g
+           id="g1659">
+          <g
+             id="g1661"
+             clip-path="url(#clipPath1665)">
+            <g
+               id="g1667">
+              <text
+                 xml:space="preserve"
+                 transform="translate(205.21997,525.94003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Courier New';-inkscape-font-specification:CourierNewPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1671"><tspan
+                   x="0 7.2011719 14.402344 21.603516 28.804688 36.005859 43.207031 50.408203 57.609375 64.810547 72.011719 79.212891 86.414062 93.615234 100.81641"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1669">255.255.255.248</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path
+         d="m 205.219,528.34 h 108.02 v 1.199 h -108.02 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path1673" />
+      <g
+         id="g1675">
+        <g
+           id="g1677">
+          <g
+             id="g1679"
+             clip-path="url(#clipPath1683)">
+            <g
+               id="g1685">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,548.26003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1689"><tspan
+                   x="0 6.3515625 11.425781"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1687">CLI</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1691">
+        <g
+           id="g1693">
+          <g
+             id="g1695"
+             clip-path="url(#clipPath1699)">
+            <g
+               id="g1701">
+              <text
+                 xml:space="preserve"
+                 transform="translate(53.399997,548.26003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1705"><tspan
+                   x="0 5.671875 12.111328 18.586781 25.026234 31.067249 35.131405 38.489952"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1703">Subnet: </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1707">
+        <g
+           id="g1709">
+          <g
+             id="g1711"
+             clip-path="url(#clipPath1715)">
+            <g
+               id="g1717">
+              <text
+                 xml:space="preserve"
+                 transform="translate(94.703994,548.26003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1721"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1719">(</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1723">
+        <g
+           id="g1725">
+          <g
+             id="g1727"
+             clip-path="url(#clipPath1731)">
+            <g
+               id="g1733">
+              <text
+                 xml:space="preserve"
+                 transform="translate(98.423994,548.26003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1737"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1735">S</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1739">
+        <g
+           id="g1741">
+          <g
+             id="g1743"
+             clip-path="url(#clipPath1747)">
+            <g
+               id="g1749">
+              <text
+                 xml:space="preserve"
+                 transform="translate(104.06,548.26003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1753"><tspan
+                   x="0 4.1601562 10.083984 14.38561 18.473766 21.457031 27.896484 33.585938 36.298828 39.534046"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1751">tarting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1755">
+        <g
+           id="g1757">
+          <g
+             id="g1759"
+             clip-path="url(#clipPath1763)">
+            <g
+               id="g1765">
+              <text
+                 xml:space="preserve"
+                 transform="translate(150.02,548.26003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1769"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1767">/</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1771">
+        <g
+           id="g1773">
+          <g
+             id="g1775"
+             clip-path="url(#clipPath1779)">
+            <g
+               id="g1781">
+              <text
+                 xml:space="preserve"
+                 transform="translate(155.06,548.26003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1785"><tspan
+                   x="0 6.118031 12.236062"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1783">29)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1787">
+        <g
+           id="g1789">
+          <g
+             id="g1791"
+             clip-path="url(#clipPath1795)">
+            <g
+               id="g1797">
+              <text
+                 xml:space="preserve"
+                 transform="translate(171.02,548.26003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1801"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.847939 47.824501 53.837063 59.717625 65.694191 71.670753 77.647316 83.683876 89.564438 95.541 101.44556 107.42213 113.43468 119.41125 125.42381 131.40038 137.41293 143.2935 149.27007 155.28262 161.25919 167.27174 173.24831 179.15288 185.12944 191.142 197.11856 203.09512 208.99969 214.97626 220.88081 226.85738 232.86993 238.8465 244.85907"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1799">__________________________________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1803">
+        <g
+           id="g1805">
+          <g
+             id="g1807"
+             clip-path="url(#clipPath1811)">
+            <g
+               id="g1813">
+              <text
+                 xml:space="preserve"
+                 transform="translate(422.10997,548.26003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1817"><tspan
+                   x="0 5.9765625 11.881125 17.857687 23.870251 29.846813"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1815">______</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1819">
+        <g
+           id="g1821">
+          <g
+             id="g1823"
+             clip-path="url(#clipPath1827)">
+            <g
+               id="g1829">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,570.22003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1833"><tspan
+                   x="0 6.7265625 11.028188 17.479359 23.403187 29.84264 34.864124 40.787952 45.575062 49.771217 53.021767 55.734657 59.508938 64.523155 70.398987 75.186096 79.394249 82.143143 85.342361 91.72908 94.369972 97.353233 103.82869 106.46958 110.7712 116.64703 123.12248 128.76393 134.75696"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1831">Broadcast: (Last IP in range)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1835">
+        <g
+           id="g1837">
+          <g
+             id="g1839"
+             clip-path="url(#clipPath1843)">
+            <g
+               id="g1845">
+              <text
+                 xml:space="preserve"
+                 transform="translate(174.62,570.22003)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1849"><tspan
+                   x="0 5.9765625 12.001125 17.977688 24.002251 29.978813 36.003376 41.979939 48.004501 53.981064 59.885624 65.86219 71.874748 77.851311 83.875877 89.85244 95.757004 101.73357 107.75813 113.73469 119.75925 125.73581 131.76038 137.64093 143.61749 149.64206 155.61862 161.64319 167.61975 173.52431 179.50087 185.52544 191.502 197.51456 203.39513 209.37169 215.27625 221.25281 227.27737 233.25394 239.2785 245.25507 251.27963 257.16019 263.13675 269.16132 275.13788 281.16245"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1847">________________________________________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1851">
+        <g
+           id="g1853">
+          <g
+             id="g1855"
+             clip-path="url(#clipPath1859)">
+            <g
+               id="g1861">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,606.82)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1865"><tspan
+                   x="0 7.8339844 12.621094 18.484922 24.924376 27.931641 33.936657 36.685547 39.884766 46.271484 49.365234 54.152344"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1863">Usable IP’s:</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1867">
+        <g
+           id="g1869">
+          <g
+             id="g1871"
+             clip-path="url(#clipPath1875)">
+            <g
+               id="g1877">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,621.46)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1881"><tspan
+                   x="0 6.0050159 11.518687 17.442516 27.120234 33.559689 36.578953 42.571968 45.918514"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1879">example: </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1883">
+        <g
+           id="g1885">
+          <g
+             id="g1887"
+             clip-path="url(#clipPath1891)">
+            <g
+               id="g1893">
+              <text
+                 xml:space="preserve"
+                 transform="translate(84.743994,621.46)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1897"><tspan
+                   x="0 6.0820312 12.224063 18.306093 21.33539 27.345423 33.427452"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1895">144.38.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1899">
+        <g
+           id="g1901">
+          <g
+             id="g1903"
+             clip-path="url(#clipPath1907)">
+            <g
+               id="g1909">
+              <text
+                 xml:space="preserve"
+                 transform="translate(121.22,621.46)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1913"><tspan
+                   x="0 6.118031 12.236062"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1911">200</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1915">
+        <g
+           id="g1917">
+          <g
+             id="g1919"
+             clip-path="url(#clipPath1923)">
+            <g
+               id="g1925">
+              <text
+                 xml:space="preserve"
+                 transform="translate(139.58,621.46)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1929"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1927">.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1931">
+        <g
+           id="g1933">
+          <g
+             id="g1935"
+             clip-path="url(#clipPath1939)">
+            <g
+               id="g1941">
+              <text
+                 xml:space="preserve"
+                 transform="translate(142.58,621.46)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1945"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan1943">2</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1947">
+        <g
+           id="g1949">
+          <g
+             id="g1951"
+             clip-path="url(#clipPath1955)">
+            <g
+               id="g1957">
+              <text
+                 xml:space="preserve"
+                 transform="translate(162.26,621.46)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1961"><tspan
+                   x="0 3.6021094 9.930234 14.149828 16.898718"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1959">for G</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1963">
+        <g
+           id="g1965">
+          <g
+             id="g1967"
+             clip-path="url(#clipPath1971)">
+            <g
+               id="g1973">
+              <text
+                 xml:space="preserve"
+                 transform="translate(186.73997,621.46)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1977"><tspan
+                   x="0 7.6992188 10.674656 13.423547 16.177454 22.53014 27.091499 31.159031 36.907078 39.660984"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1975">UI install</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1979">
+        <g
+           id="g1981">
+          <g
+             id="g1983"
+             clip-path="url(#clipPath1987)">
+            <g
+               id="g1989">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,636.1)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text1993"><tspan
+                   x="0 6.118031"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan1991">1.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1995">
+        <g
+           id="g1997">
+          <g
+             id="g1999"
+             clip-path="url(#clipPath2003)">
+            <g
+               id="g2005">
+              <text
+                 xml:space="preserve"
+                 transform="translate(47.879997,636.1)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2009"><tspan
+                   x="0 3.6386719 8.2840309 12.351562 18.099609 22.283203 26.374735 29.020641 35.361328 41.009766 43.722656 46.746094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2007">(starting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2011">
+        <g
+           id="g2013">
+          <g
+             id="g2015"
+             clip-path="url(#clipPath2019)">
+            <g
+               id="g2021">
+              <text
+                 xml:space="preserve"
+                 transform="translate(100.94,636.1)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2025"><tspan
+                   x="0 5.8805623 11.962594"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2023">+2)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2027">
+        <g
+           id="g2029">
+          <g
+             id="g2031"
+             clip-path="url(#clipPath2035)">
+            <g
+               id="g2037">
+              <text
+                 xml:space="preserve"
+                 transform="translate(116.54,636.1)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2041"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.739937 47.716499 53.729061 59.705624 65.68219 71.658752 77.695312 83.575874 89.552437 95.565002 101.54156 107.55412 113.53069 119.43525 125.41181 131.42438 137.40094 143.4135 149.29407 155.27063 161.17519 167.15175 173.16431"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2039">_____________________________ </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2043">
+        <g
+           id="g2045">
+          <g
+             id="g2047"
+             clip-path="url(#clipPath2051)">
+            <g
+               id="g2053">
+              <text
+                 xml:space="preserve"
+                 transform="translate(292.60997,636.1)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2057"><tspan
+                   x="0 3.6021094 9.930234 14.149828 16.898718 22.87528 28.779844 34.756405 40.76897 46.745533 52.722095 58.626656 64.603218 70.615784 76.592346 82.604904 88.485466 94.462029 100.47459 106.35516 112.33172 118.34428 124.32085 130.3334 136.30997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2055">for _____________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2059">
+        <g
+           id="g2061">
+          <g
+             id="g2063"
+             clip-path="url(#clipPath2067)">
+            <g
+               id="g2069">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,658.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2073"><tspan
+                   x="0 6.118031"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2071">2.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2075">
+        <g
+           id="g2077">
+          <g
+             id="g2079"
+             clip-path="url(#clipPath2083)">
+            <g
+               id="g2085">
+              <text
+                 xml:space="preserve"
+                 transform="translate(47.879997,658.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2089"><tspan
+                   x="0 3.6386719 8.2840309 12.351562 18.099609 22.283203 26.374735 29.020641 35.361328 41.009766 43.722656 46.746094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2087">(starting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2091">
+        <g
+           id="g2093">
+          <g
+             id="g2095"
+             clip-path="url(#clipPath2099)">
+            <g
+               id="g2101">
+              <text
+                 xml:space="preserve"
+                 transform="translate(100.94,658.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2105"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2103">+</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2107">
+        <g
+           id="g2109">
+          <g
+             id="g2111"
+             clip-path="url(#clipPath2115)">
+            <g
+               id="g2117">
+              <text
+                 xml:space="preserve"
+                 transform="translate(106.82,658.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2121"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2119">3</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2123">
+        <g
+           id="g2125">
+          <g
+             id="g2127"
+             clip-path="url(#clipPath2131)">
+            <g
+               id="g2133">
+              <text
+                 xml:space="preserve"
+                 transform="translate(112.94,658.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2137"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2135">)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2139">
+        <g
+           id="g2141">
+          <g
+             id="g2143"
+             clip-path="url(#clipPath2147)">
+            <g
+               id="g2149">
+              <text
+                 xml:space="preserve"
+                 transform="translate(116.54,658.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2153"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.739937 47.716499 53.729061 59.705624 65.68219 71.658752 77.695312 83.575874 89.552437 95.565002 101.54156 107.55412 113.53069 119.43525 125.41181 131.42438 137.40094 143.4135 149.29407 155.27063 161.17519 167.15175 173.16431"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2151">_____________________________ </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2155">
+        <g
+           id="g2157">
+          <g
+             id="g2159"
+             clip-path="url(#clipPath2163)">
+            <g
+               id="g2165">
+              <text
+                 xml:space="preserve"
+                 transform="translate(292.60997,658.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2169"><tspan
+                   x="0 3.6021094 9.930234 14.149828 16.898718 22.87528 28.779844 34.756405 40.76897 46.745533 52.722095 58.626656 64.603218 70.615784 76.592346 82.604904 88.485466 94.462029 100.47459 106.35516 112.33172 118.34428 124.32085 130.3334 136.30997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2167">for _____________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2171">
+        <g
+           id="g2173">
+          <g
+             id="g2175"
+             clip-path="url(#clipPath2179)">
+            <g
+               id="g2181">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,680.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2185"><tspan
+                   x="0 6.118031"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2183">3.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2187">
+        <g
+           id="g2189">
+          <g
+             id="g2191"
+             clip-path="url(#clipPath2195)">
+            <g
+               id="g2197">
+              <text
+                 xml:space="preserve"
+                 transform="translate(47.879997,680.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2201"><tspan
+                   x="0 3.6386719 8.2840309 12.351562 18.099609 22.283203 26.374735 29.020641 35.361328 41.009766 43.722656 46.746094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2199">(starting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2203">
+        <g
+           id="g2205">
+          <g
+             id="g2207"
+             clip-path="url(#clipPath2211)">
+            <g
+               id="g2213">
+              <text
+                 xml:space="preserve"
+                 transform="translate(100.94,680.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2217"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2215">+</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2219">
+        <g
+           id="g2221">
+          <g
+             id="g2223"
+             clip-path="url(#clipPath2227)">
+            <g
+               id="g2229">
+              <text
+                 xml:space="preserve"
+                 transform="translate(106.82,680.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2233"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2231">4</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2235">
+        <g
+           id="g2237">
+          <g
+             id="g2239"
+             clip-path="url(#clipPath2243)">
+            <g
+               id="g2245">
+              <text
+                 xml:space="preserve"
+                 transform="translate(112.94,680.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2249"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2247">)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2251">
+        <g
+           id="g2253">
+          <g
+             id="g2255"
+             clip-path="url(#clipPath2259)">
+            <g
+               id="g2261">
+              <text
+                 xml:space="preserve"
+                 transform="translate(116.54,680.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2265"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.739937 47.716499 53.729061 59.705624 65.68219 71.658752 77.695312 83.575874 89.552437 95.565002 101.54156 107.55412 113.53069 119.43525 125.41181 131.42438 137.40094 143.4135 149.29407 155.27063 161.17519 167.15175 173.16431"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2263">_____________________________ </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2267">
+        <g
+           id="g2269">
+          <g
+             id="g2271"
+             clip-path="url(#clipPath2275)">
+            <g
+               id="g2277">
+              <text
+                 xml:space="preserve"
+                 transform="translate(292.60997,680.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2281"><tspan
+                   x="0 3.6021094 9.930234 14.149828 16.898718 22.87528 28.779844 34.756405 40.76897 46.745533 52.722095 58.626656 64.603218 70.615784 76.592346 82.604904 88.485466 94.462029 100.47459 106.35516 112.33172 118.34428 124.32085 130.3334 136.30997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2279">for _____________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2283">
+        <g
+           id="g2285">
+          <g
+             id="g2287"
+             clip-path="url(#clipPath2291)">
+            <g
+               id="g2293">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,702.12)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2297"><tspan
+                   x="0 6.118031"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2295">4.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2299">
+        <g
+           id="g2301">
+          <g
+             id="g2303"
+             clip-path="url(#clipPath2307)">
+            <g
+               id="g2309">
+              <text
+                 xml:space="preserve"
+                 transform="translate(47.879997,702.12)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2313"><tspan
+                   x="0 3.6386719 8.2840309 12.351562 18.099609 22.283203 26.374735 29.020641 35.361328 41.009766 43.722656 46.746094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2311">(starting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2315">
+        <g
+           id="g2317">
+          <g
+             id="g2319"
+             clip-path="url(#clipPath2323)">
+            <g
+               id="g2325">
+              <text
+                 xml:space="preserve"
+                 transform="translate(100.94,702.12)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2329"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2327">+</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2331">
+        <g
+           id="g2333">
+          <g
+             id="g2335"
+             clip-path="url(#clipPath2339)">
+            <g
+               id="g2341">
+              <text
+                 xml:space="preserve"
+                 transform="translate(106.82,702.12)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2345"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2343">5</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2347">
+        <g
+           id="g2349">
+          <g
+             id="g2351"
+             clip-path="url(#clipPath2355)">
+            <g
+               id="g2357">
+              <text
+                 xml:space="preserve"
+                 transform="translate(112.94,702.12)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2361"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2359">)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2363">
+        <g
+           id="g2365">
+          <g
+             id="g2367"
+             clip-path="url(#clipPath2371)">
+            <g
+               id="g2373">
+              <text
+                 xml:space="preserve"
+                 transform="translate(116.54,702.12)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2377"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.739937 47.716499 53.729061 59.705624 65.68219 71.658752 77.695312 83.575874 89.552437 95.565002 101.54156 107.55412 113.53069 119.43525 125.41181 131.42438 137.40094 143.4135 149.29407 155.27063 161.17519 167.15175 173.16431"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2375">_____________________________ </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2379">
+        <g
+           id="g2381">
+          <g
+             id="g2383"
+             clip-path="url(#clipPath2387)">
+            <g
+               id="g2389">
+              <text
+                 xml:space="preserve"
+                 transform="translate(292.60997,702.12)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2393"><tspan
+                   x="0 3.6021094 9.930234 14.149828 16.898718 22.87528 28.779844 34.756405 40.76897 46.745533 52.722095 58.626656 64.603218 70.615784 76.592346 82.604904 88.485466 94.462029 100.47459 106.35516 112.33172 118.34428 124.32085 130.3334 136.30997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2391">for _____________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2395">
+        <g
+           id="g2397">
+          <g
+             id="g2399"
+             clip-path="url(#clipPath2403)">
+            <g
+               id="g2405">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,724.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2409"><tspan
+                   x="0 6.118031"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2407">5.</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2411">
+        <g
+           id="g2413">
+          <g
+             id="g2415"
+             clip-path="url(#clipPath2419)">
+            <g
+               id="g2421">
+              <text
+                 xml:space="preserve"
+                 transform="translate(47.879997,724.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2425"><tspan
+                   x="0 3.6386719 8.2840309 12.351562 18.099609 22.283203 26.374735 29.020641 35.361328 41.009766 43.722656 46.746094"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2423">(starting IP</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2427">
+        <g
+           id="g2429">
+          <g
+             id="g2431"
+             clip-path="url(#clipPath2435)">
+            <g
+               id="g2437">
+              <text
+                 xml:space="preserve"
+                 transform="translate(100.94,724.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2441"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2439">+</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2443">
+        <g
+           id="g2445">
+          <g
+             id="g2447"
+             clip-path="url(#clipPath2451)">
+            <g
+               id="g2453">
+              <text
+                 xml:space="preserve"
+                 transform="translate(106.82,724.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2457"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2455">6</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2459">
+        <g
+           id="g2461">
+          <g
+             id="g2463"
+             clip-path="url(#clipPath2467)">
+            <g
+               id="g2469">
+              <text
+                 xml:space="preserve"
+                 transform="translate(112.94,724.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2473"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2471">)</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2475">
+        <g
+           id="g2477">
+          <g
+             id="g2479"
+             clip-path="url(#clipPath2483)">
+            <g
+               id="g2485">
+              <text
+                 xml:space="preserve"
+                 transform="translate(116.54,724.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2489"><tspan
+                   x="0 5.9765625 11.989125 17.965687 23.978251 29.858812 35.835377 41.739937 47.716499 53.729061 59.705624 65.68219 71.658752 77.695312 83.575874 89.552437 95.565002 101.54156 107.55412 113.53069 119.43525 125.41181 131.42438 137.40094 143.4135 149.29407 155.27063 161.17519 167.15175 173.16431"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2487">_____________________________ </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2491">
+        <g
+           id="g2493">
+          <g
+             id="g2495"
+             clip-path="url(#clipPath2499)">
+            <g
+               id="g2501">
+              <text
+                 xml:space="preserve"
+                 transform="translate(292.60997,724.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2505"><tspan
+                   x="0 3.6021094 9.930234 14.149828 16.898718 22.87528 28.779844 34.756405 40.76897 46.745533 52.722095 58.626656 64.603218 70.615784 76.592346 82.604904 88.485466 94.462029 100.47459 106.35516 112.33172 118.34428 124.32085 130.3334 136.30997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2503">for _____________________</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2507">
+        <g
+           id="g2509">
+          <g
+             id="g2511"
+             clip-path="url(#clipPath2515)">
+            <g
+               id="g2517">
+              <text
+                 xml:space="preserve"
+                 transform="translate(35.999997,746.04)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2521"><tspan
+                   x="0 7.5644531 15.46875 21.140625 23.853516 29.525391 35.518406 39.832031 45.509766 51.466782 55.780407"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2519">DNS Servers</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2523">
+        <g
+           id="g2525">
+          <g
+             id="g2527"
+             clip-path="url(#clipPath2531)">
+            <g
+               id="g2533">
+              <text
+                 xml:space="preserve"
+                 transform="translate(96.623994,746.04)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2537"><tspan
+                   x="0 3.358547"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2535">: </tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2539">
+        <g
+           id="g2541">
+          <g
+             id="g2543"
+             clip-path="url(#clipPath2547)">
+            <g
+               id="g2549">
+              <text
+                 xml:space="preserve"
+                 transform="translate(102.74,746.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2553"><tspan
+                   x="0 7.2011719 14.402344 21.603516 28.804688 36.005859 43.207031 50.276203 57.477375 64.678543 71.879715 79.080887 86.282059 93.483231 100.6844 107.88557 115.08675 122.28792 129.48909 136.69026 143.89143 151.09261 158.29378 165.49495 172.69612 179.89729"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2551">144.38.192.2, 144.38.192.3</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2555">
+        <g
+           id="g2557">
+          <g
+             id="g2559"
+             clip-path="url(#clipPath2563)">
+            <g
+               id="g2565">
+              <text
+                 xml:space="preserve"
+                 transform="translate(347.46997,746.04)"
+                 style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2569"><tspan
+                   x="0 5.671875 11.640891 17.516718 21.830343 26.851828 33.339283 36.088173 42.527626 48.906796 58.632515 64.508347 67.503609 73.943062 78.730171"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan2567">Search domains:</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2571">
+        <g
+           id="g2573">
+          <g
+             id="g2575"
+             clip-path="url(#clipPath2579)">
+            <g
+               id="g2581">
+              <text
+                 xml:space="preserve"
+                 transform="translate(432.42997,746.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2585"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan2583">i</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g2587">
+        <g
+           id="g2589">
+          <g
+             id="g2591"
+             clip-path="url(#clipPath2595)">
+            <g
+               id="g2597">
+              <text
+                 xml:space="preserve"
+                 transform="translate(439.62997,746.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;white-space:pre;inline-size:132.165;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text2601"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan4194">t1200.cs.dixie.edu</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,293 @@
+<html><head></head><body><h1>CS 1410: ISBN Index</h1>
+
+<p>Formatted instructions here: <a href="http://cit.dixie.edu/cs/1410/labs/isbn_index.php">http://cit.dixie.edu/cs/1410/labs/isbn_index.php</a></p>
+
+<p>If you&#39;re familiar with books, then you&#39;re probably familiar with an ISBN. ISBN
+is an acronym for International Standard Book Number. In many countries, an ISBN
+agency exists to assign a unique ISBN to each book that is published in that
+country. By doing so, the vast majority of books that get published
+internationally can be identified by a single, unique ISBN, and this makes it
+easy for anyone to describe or locate a book, simply by knowing its ISBN.</p>
+
+<h2>Assignment</h2>
+
+<p>Your program will gather, record, and return a collection of book titles, each identified by the book&#39;s ISBN. Your program will feature a very simple menu that allows the user to perform any one of four operations, one at a time, repeatedly until the user chooses to quit the program. When prompted, the user may select one of the four operations by inputting a unique letter corresponding to one of the operations. The four operations (and their unique letters) are:</p>
+
+<ol>
+<li><p><strong>[r] Record a Book:</strong> This operation asks the user for two pieces of information, an ISBN and a book title. Your program will record the book&#39;s title and associate it to the given ISBN. Use a dictionary for this. You should assume that the ISBN is unique, and if a book was previously recorded using this ISBN, simply disregard the old record and replace it with the new one.</p></li>
+
+<li><p><strong>[f] Find a Book:</strong> This operation asks the user for one piece of information: an ISBN. Your program will attempt to find an existing record with this ISBN. If found, print the book title associated to this ISBN. If not found, print a message indicating that no such book could be found.</p></li>
+
+<li><p><strong>[l] List all Books:</strong> This operation does not ask the user for any additional information. Your program will immediately print a list of all known ISBN records, one per line. Each line should contain the ISBN followed by the book title that is associated to the ISBN.</p></li>
+
+<li><p><strong>[q] Quit:</strong> When this operation is selected, your program will print a friendly goodbye message to the user and then terminate.</p></li>
+
+<li><p><strong>Something else?</strong> If the user enters a different letter or phrase, print a message informing the user that this option is invalid, and allow them to try again.</p></li>
+</ol>
+
+<h2>Extra Challenges</h2>
+
+<ul>
+<li><p>Add a bit of friendliness to your program! When your program first starts, before the menu options are first printed, display a brief message explaining your program and how to use it.</p></li>
+
+<li><p>Because this assignment does not require you to save the ISBN records to a file, you may assume that all records will be lost when the program quits. However, wouldn&#39;t it be useful if the records were <em>not</em> lost? Consider upgrading your program to write all records to a file just before the program quits, and then also load any records from the same file when the program is started again.</p></li>
+</ul>
+
+<h2>Hints</h2>
+
+<ul>
+<li>Before starting, practice using dictionaries. You&#39;ll need to know how to create a dictionary, set a value by key, retrieve a value by key, check if a key exists and iterate through all keys and their values.</li>
+</ul>
+
+<h2>Sample</h2>
+
+<p>Program execution:</p>
+
+<pre><code class="language-language-text">What would you like to do?
+[r] Record a Book
+[f] Find a Book
+[l] List all Books
+[q] Quit
+Enter an option: r
+Enter an ISBN: 978-0439708180
+Enter a book title: Harry Potter and the Sorcerer&#39;s Stone
+Book saved!
+
+What would you like to do?
+[r] Record a Book
+[f] Find a Book
+[l] List all Books
+[q] Quit
+Enter an option: r
+Enter an ISBN: 978-0439023528
+Enter a book title: The Hunger Games
+Book saved!
+
+What would you like to do?
+[r] Record a Book
+[f] Find a Book
+[l] List all Books
+[q] Quit
+Enter an option: f
+Enter an ISBN: 978-0439023528
+Book found: The Hunger Games
+
+What would you like to do?
+[r] Record a Book
+[f] Find a Book
+[l] List all Books
+[q] Quit
+Enter an option: f
+Enter an ISBN: 978-0439708180
+Book found: Harry Potter and the Sorcerer&#39;s Stone
+
+What would you like to do?
+[r] Record a Book
+[f] Find a Book
+[l] List all Books
+[q] Quit
+Enter an option: l
+1) 978-0439023528: The Hunger Games
+2) 978-0439708180: Harry Potter and the Sorcerer&#39;s Stone
+
+What would you like to do?
+[r] Record a Book
+[f] Find a Book
+[l] List all Books
+[q] Quit
+Enter an option: x
+Sorry, that option is invalid.
+
+What would you like to do?
+[r] Record a Book
+[f] Find a Book
+[l] List all Books
+[q] Quit
+Enter an option: q
+Bye! See you next time!
+</code></pre>
+
+<h2>Instructions</h2>
+
+<p>Create your program in the file <code>isbn_index.py</code>.  <a href="isbnTests.zip">Unit tests</a> are available for download.</p>
+
+<p>Your assignment is to create the following functions. The functionality for each function is described below. You must follow the specifications exactly, but may choose your own method for solving the problem described for each. Once you have completed a function you should run the unittest for that function and have it pass all tests. Fix any errors, warnings, and/or failures.</p>
+
+<p>Because of the user input and output, not all functions are easily tested with unit tests.  Be sure to test these functions by running your program and observing the correct behavior.</p>
+
+<ul>
+<li><code>createIndex</code></li>
+<li><code>recordBook</code></li>
+<li><code>findBook</code></li>
+<li><code>listBooks</code></li>
+<li><code>formatMenu</code></li>
+<li><code>formatMenuPrompt</code></li>
+<li><code>getUserChoice</code></li>
+<li><code>getISBN</code></li>
+<li><code>getTitle</code></li>
+<li><code>recordBookAction</code></li>
+<li><code>findBookAction</code></li>
+<li><code>listBooksAction</code></li>
+<li><code>quitAction</code></li>
+<li><code>applyAction</code></li>
+<li><code>main</code></li>
+</ul>
+
+<hr/>
+
+<h3><code>createIndex</code></h3>
+
+<p>The function <code>createIndex</code> does not receive any parameters.  It must return an empty dictionary for the index.</p>
+
+<pre><code class="language-language-python">createIndex() -&gt; { }
+</code></pre>
+
+<hr/>
+
+<h3><code>recordBook</code></h3>
+
+<p>The function <code>recordBook</code> receives three parameters, the index dictionary, the ISBN of a book, and the title of a book.  Both the ISBN and title are strings.  It must assign the title to the ISBN in the index.  It does not return anything.  However, the dictionary will be modified as a result of this function&#39;s work.</p>
+
+<pre><code class="language-language-python">recordBook( index, &#34;978-0439023528&#34;, &#34;The Hunger Games&#34; ) -&gt; index should now contain the book
+</code></pre>
+
+<hr/>
+
+<h3><code>findBook</code></h3>
+
+<p>The function <code>findBook</code> receives two parameters, the index dictionary and the ISBN of a book.  The ISBN is a string.  The function returns the title of the book with the matching ISBN, if it exists.  If the ISBN is not in the dictionary, then it returns the empty string.</p>
+
+<pre><code class="language-language-python">findBook( index, &#34;978-0439023528&#34; ) -&gt; &#34;The Hunger Games&#34;
+findBook( index, &#34;888-8888888888&#34; ) -&gt; &#34;&#34;
+</code></pre>
+
+<hr/>
+
+<h3><code>listBooks</code></h3>
+
+<p>The function <code>listBooks</code> receives one parameter, the index dictionary.  The function returns a list of strings.  Each string in the list is a line that shows a sequence number, the ISBN and the title of a book.  See the examples for the format of the lines.  If there are no books in the index, this function returns an empty list.</p>
+
+<pre><code class="language-language-python">listBooks( empty_index ) -&gt; [ ]
+listBooks( index ) -&gt; [ &#34;1) 978-0439023528: The Hunger Games&#34;, &#34;2) 978-0439708180: Harry Potter and the Sorcerer&#39;s Stone&#34; ]
+</code></pre>
+
+<hr/>
+
+<h3><code>formatMenu</code></h3>
+
+<p>The function <code>formatMenu</code> does not receive any parameters.  It must return a list of strings that contains the lines of the menu.</p>
+
+<pre><code class="language-language-python">formatMenu() -&gt; [ &#39;What would you like to do?&#39;, &#39;[r] Record a Book&#39;, &#39;[f] Find a Book&#39;, &#39;[l] List all Books&#39;, &#39;[q] Quit&#39; ]
+</code></pre>
+
+<hr/>
+
+<h3><code>formatMenuPrompt</code></h3>
+
+<p>The function <code>formatMenuPrompt</code> does not receive any parameters.  It must return a string that contains the prompt to ask the user which menu option they would like to select.</p>
+
+<pre><code class="language-language-python">formatMenuPrompt() -&gt; &#39;Enter an option: &#39;
+</code></pre>
+
+<hr/>
+
+<h3><code>getUserChoice</code></h3>
+
+<p>The function <code>getUserChoice</code> receives one parameter, a string that contains a prompt for input.  It must return a string that contains the text input by the user, with any leanding and trailing whitespace removed.  If the user gives an empty string, prompt them again, until they give a non-empty string.  Note that this  function interacts with the user, so there will be output to the screen and input from the keyboard when it is called.</p>
+
+<pre><code class="language-language-python">getUserChoice( &#34;Hello? &#34; ) -&gt; &#39;some text&#39;
+getUserChoice( &#34;Choose&#34; ) -&gt; &#39;othertext&#39;
+</code></pre>
+
+<hr/>
+
+<h3><code>getISBN</code></h3>
+
+<p>The function <code>getISBN</code> does not receive any parameters.  It must prompt the user for an ISBN, and return the ISBN input by the user.  The user&#39;s response must not have any leading or trailing whitespace.  It must repeatedly ask the user for an ISBN, until the user gives a non-empty response.  Note, you should probably call <code>getUserChoice</code> as part of this function.</p>
+
+<pre><code class="language-language-python">getISBN( ) -&gt; &#39;978-0439708180&#39;
+getISBN( ) -&gt; &#39;user-typed-this&#39;
+</code></pre>
+
+<hr/>
+
+<h3><code>getTitle</code></h3>
+
+<p>The function <code>getTitle</code> does not receive any parameters.  It must prompt the user for a book title, and return the title input by the user.  The user&#39;s response must not have any leading or trailing whitespace.  It must repeatedly ask the user for a title, until the user gives a non-empty response.  Note, you should probably call <code>getUserChoice</code> as part of this function.</p>
+
+<pre><code class="language-language-python">getTitle( ) -&gt; &#34;Harry Potter and the Sorcerer&#39;s Stone&#34;
+getTitle( ) -&gt; &#39;user-typed-this too.  Weird!&#39;
+</code></pre>
+
+<hr/>
+
+<h3><code>recordBookAction</code></h3>
+
+<p>The function <code>recordBookAction</code> receives the index dictionary as a parameter.  It must ask the user for the ISBN and title of a book, and add it to the dictionary.  This function does not return anything.  However, it has the side effect of adding an entry to the dictionary.  It also interacts with the user through input and output.  Note you should be using some of the above functions to complete this function.</p>
+
+<pre><code class="language-language-python">recordBookAction( index ) -&gt; the index dictionary should be modified
+</code></pre>
+
+<hr/>
+
+<h3><code>findBookAction</code></h3>
+
+<p>The function <code>findBookAction</code> receives the index dictionary as a parameter.  It
+must ask the user for the ISBN of a book. If the book exists in the dictionary,
+it will display (print) the book title. If the book does not exist in the
+dictionary, it will print a message to let them know. The function does not
+return anything and should not change the index.</p>
+
+<pre><code class="language-language-python">findBookAction( index ) -&gt; the index dictionary should not be modified
+</code></pre>
+
+<hr/>
+
+<h3><code>listBooksAction</code></h3>
+
+<p>The function <code>listBooksAction</code> receives the index dictionary as a parameter.  It will display all of the books in the dictionary in the format shown in the examples.  If there are no books in the dictionary, it must display a message to inform the user.  The function does not return anything.  The function must not change the dictionary.</p>
+
+<pre><code class="language-language-python">listBooksAction( index ) -&gt; the index dictionary should not be modified
+</code></pre>
+
+<hr/>
+
+<h3><code>quitAction</code></h3>
+
+<p>The function <code>quitAction</code> receives the index dictionary as a parameter.  This function will display a message to the user indicating the end of the program.  It will then terminate the program using <code>sys.exit( 0 )</code>.  Be sure to do the correct <code>import</code> statement.  This function does not return anything.</p>
+
+<pre><code class="language-language-python">quitAction( index ) -&gt; the program will end
+</code></pre>
+
+<hr/>
+
+<h3><code>applyAction</code></h3>
+
+<p>The function <code>applyAction</code> receives the index dictionary and a choice string as parameters.  This function will call the appropriate action function based on the choice string.  If the choice string does not match any accepted choices, it will display a message to the user.  This function does not return anything.  The dictionary may be changed as a result of the chosen action.</p>
+
+<pre><code class="language-language-python">applyAction( index, &#34;r&#34; ) -&gt; the dictionary will have a new book added.
+applyAction( index, &#34;f&#34; ) -&gt; the user will select a book to display.
+applyAction( index, &#34;l&#34; ) -&gt; the contents of the dictionary will be displayed.
+applyAction( index, &#34;q&#34; ) -&gt; the program will terminate.
+applyAction( index, &#34;bad-choice&#34; ) -&gt; the user will receive a message.
+</code></pre>
+
+<hr/>
+
+<h3><code>main</code></h3>
+
+<p>The function <code>main</code> receives no parameters, and returns nothing.  This function ties everything together.  Creating an index, repeatedly asking the user their choice and taking action.</p>
+
+<pre><code class="language-language-python">main( ) -&gt; the program runs.
+</code></pre>
+
+<hr/>
+
+<h3>Finishing Up</h3>
+
+<p>Lastly add this snippet at the bottom of your file which will execute your <code>main()</code> function when you run <code>isbn_index.py</code> but will allow it to be imported into the unittest files without executing the main function.</p>
+
+<pre><code class="language-language-python">if __name__ == &#39;__main__&#39;:
+    main()
+</code></pre>
+</body></html>
