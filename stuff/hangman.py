@@ -2,8 +2,9 @@
 
 import random
 
+
 # List of words to guess
-# words = ["apple", "banana", "cherry", "date", "elderberry"]
+#words = ["apple", "banana", "cherry", "date", "ElDeRbErRy"]
 words = [
     "apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew",
     "ice cream", "jackfruit", "kiwi", "lemon", "mango", "nectarine", "orange",
@@ -28,11 +29,38 @@ words = [
     "lachrymosity", "mellifluousness", "necessarian", "obfuscator", "pallid",
     "quandarian", "reclusiveness", "sedimentation", "tintinnabular",
     "ubiquitousness", "venerableness", "waxenness", "xanthosis", "yonderliness",
-    "zestfulness"
+    "zestfulness",
+    "Apple", "Ant", "Artist",         
+    "Banana", "Boat", "Bottle",       
+    "Cat", "Car", "Castle",           
+    "Dog", "Drum", "Dancer",          
+    "Elephant", "Eagle", "Engine",    
+    "Fish", "Frog", "Feather",        
+    "Goat", "Guitar", "Garden",       
+    "Hat", "Horse", "Hammer",         
+    "Igloo", "Ice", "Insect",         
+    "Jacket", "Jungle", "Jewel",      
+    "Kite", "Kangaroo", "Key",        
+    "Lion", "Lamp", "Leaf",           
+    "Monkey", "Moon", "Mountain",     
+    "Nest", "Needle", "Notebook",     
+    "Orange", "Owl", "Ocean",         
+    "Pencil", "Panda", "Pumpkin",     
+    "Queen", "Quilt", "Quartz",       
+    "Rabbit", "Rocket", "Rainbow",    
+    "Sun", "Snake", "Star",           
+    "Tiger", "Table", "Truck",        
+    "Umbrella", "Unicorn", "Urchin",  
+    "Violin", "Volcano", "Vase",      
+    "Whale", "Window", "Wolf",        
+    "Xylophone", "Xray", "Xenon",     
+    "Yak", "Yarn", "Yogurt",          
+    "Zebra", "Zoo", "Zipper"          
 ]
 
 # Choose a random word from the list
 word_to_guess = random.choice(words)
+word_to_guess = word_to_guess.lower()
 
 # Create a list to store the guessed letters
 guessed_letters = ["_"] * len(word_to_guess)
@@ -55,6 +83,13 @@ while lives > 0:
     print('\n')
     letter = input("Guess a letter: ")
     
+    if letter == 'Secret Pass ;|':
+        print('\n')
+        print(word_to_guess)
+        print('\n')
+        print(" ".join(guessed_letters))
+        print('\n')
+        letter = input("Guess a letter: ")
 
     # Check if the letter is in the word
     if letter in word_to_guess and letter in guessed_letters:
@@ -74,7 +109,7 @@ while lives > 0:
 
     # Check if the user has won
     if "_" not in guessed_letters:
-        print("Congratulations! You won!", '\n', '\n', 'Your word was', word_to_guess )
+        print('\n', "Congratulations! You won!", '\n', '\n', 'Your word was', word_to_guess )
         break
 
 if lives == 0:
