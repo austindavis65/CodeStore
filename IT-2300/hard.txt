@@ -1,0 +1,217 @@
+mysql> source taxcreate.sql
+--------------
+DROP DATABASE IF EXISTS tax
+--------------
+
+Query OK, 2 rows affected (0.06 sec)
+
+--------------
+CREATE DATABASE tax
+--------------
+
+Query OK, 1 row affected (0.04 sec)
+
+Database changed
+--------------
+DROP TABLE IF EXISTS taxAreaAuthority
+--------------
+
+Query OK, 0 rows affected, 1 warning (0.04 sec)
+
+--------------
+CREATE TABLE taxAreaAuthority (
+	taxAuthority VARCHAR(10),
+	taxArea VARCHAR(10)
+)
+--------------
+
+Query OK, 0 rows affected (0.10 sec)
+
+--------------
+INSERT INTO taxAreaAuthority VALUES 
+	('city1', 'city1'),
+	('city2', 'city2'),
+	('city3', 'city3'),
+	('county1', 'city1'),
+	('county1', 'city2'),
+	('county2', 'city3'),
+	('state1', 'city1'),
+	('state1', 'city2'),
+	('state1', 'city3')
+--------------
+
+Query OK, 9 rows affected (0.01 sec)
+Records: 9  Duplicates: 0  Warnings: 0
+
+--------------
+DROP TABLE IF EXISTS taxRates
+--------------
+
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+--------------
+CREATE TABLE taxRates (
+	taxAuthority VARCHAR(10),
+	effective DATE,
+	authTaxRate DECIMAL(5, 1)
+)
+--------------
+
+Query OK, 0 rows affected (0.18 sec)
+
+--------------
+INSERT INTO taxRates VALUES 
+	('city1', DATE '1993-01-01', 1),
+	('city1', DATE '1994-01-01', 1.5),
+	('city2', DATE '1993-09-01', 1.5),
+	('city2', DATE '1994-01-01', 2),
+	('city2', DATE '1995-01-01', 2.5),
+	('city3', DATE '1993-01-01', 1.9),
+	('city3', DATE '1993-07-01', 2.3),
+	('county1', DATE '1993-01-01', 2.3),
+	('county1', DATE '1994-10-01', 2.5),
+	('county1', DATE '1995-01-01', 2.7),
+	('county2', DATE '1993-01-01', 2.4),
+	('county2', DATE '1994-01-01', 2.7),
+	('county2', DATE '1995-01-01', 2.8),
+	('state1', DATE '1993-01-01', 0.5),
+	('state1', DATE '1994-01-01', 0.8),
+	('state1', DATE '1994-07-01', 0.9),
+	('state1', DATE '1994-10-01', 1.1)
+--------------
+
+Query OK, 17 rows affected (0.05 sec)
+Records: 17  Duplicates: 0  Warnings: 0
+
+mysql> source hard.sql
+Database changed
+--------------
+SET @target = 'city2'
+--------------
+
+Query OK, 0 rows affected (0.01 sec)
+
+--------------
+SELECT taxAuthority
+	FROM taxAreaAuthority
+	WHERE taxArea = @target AND taxAuthority LIKE 'county_'
+	INTO @county
+--------------
+
+Query OK, 1 row affected (0.00 sec)
+
+--------------
+SELECT taxAuthority
+        FROM taxAreaAuthority
+        WHERE taxArea = @target AND taxAuthority LIKE 'state_'
+        INTO @state
+--------------
+
+Query OK, 1 row affected (0.00 sec)
+
+--------------
+SELECT @county
+--------------
+
++---------+
+| @county |
++---------+
+| county1 |
++---------+
+1 row in set (0.00 sec)
+
+--------------
+SELECT @state
+--------------
+
++--------+
+| @state |
++--------+
+| state1 |
++--------+
+1 row in set (0.00 sec)
+
+--------------
+SELECT effective
+	FROM taxRates
+	WHERE taxAuthority = @target AND effective LIKE '1994-__-01'
+	INTO @thedate
+--------------
+
+Query OK, 1 row affected (0.00 sec)
+
+--------------
+SELECT authTaxRate
+FROM taxRates
+WHERE effective = @thedate
+AND taxAuthority = @target
+INTO @cityrate
+--------------
+
+Query OK, 1 row affected (0.00 sec)
+
+--------------
+SELECT authTaxRate
+FROM taxRates
+WHERE taxAuthority = @county
+AND effective <= @thedate
+INTO @countyrate
+--------------
+
+Query OK, 1 row affected (0.00 sec)
+
+--------------
+SELECT authTaxRate
+FROM taxRates
+WHERE taxAuthority = @state
+AND effective = @thedate
+INTO @staterate
+--------------
+
+Query OK, 1 row affected (0.00 sec)
+
+--------------
+SELECT @cityrate
+--------------
+
++-----------+
+| @cityrate |
++-----------+
+|       2.0 |
++-----------+
+1 row in set (0.00 sec)
+
+--------------
+SELECT @staterate
+--------------
+
++------------+
+| @staterate |
++------------+
+|        0.8 |
++------------+
+1 row in set (0.00 sec)
+
+--------------
+SELECT @countyrate
+--------------
+
++-------------+
+| @countyrate |
++-------------+
+|         2.3 |
++-------------+
+1 row in set (0.00 sec)
+
+--------------
+SELECT ROUND(SUM(@cityrate * @staterate * @countyrate), 2) AS 'Rate'
+--------------
+
++------+
+| Rate |
++------+
+| 3.68 |
++------+
+1 row in set (0.00 sec)
+
+mysql> exit
