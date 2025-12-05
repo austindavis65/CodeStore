@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: php-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: phpconsumer
+  template:
+    metadata:
+      labels:
+        app: phpconsumer
+    spec:
+      containers:
+        - name: phpconsumer
+          image: joelongtoe/phpconsumer
+          ports:
+            - containerPort: 80
+          env:
+            - name: API_URL
+              value: "http://pythonapi:8080/"
+

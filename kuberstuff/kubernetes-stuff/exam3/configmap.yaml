@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: stuff-config
+data:
+  BOOK: "Michael Vey"
+  MOVIE: "Star Wars: The Empire Strikes Back"
+  BAND: "Avenged Sevenfold"
+  ANIMAL: "Woofer (dog)"
+

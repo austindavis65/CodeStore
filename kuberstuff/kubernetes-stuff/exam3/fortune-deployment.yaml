@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pythonapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pythonapi
+  template:
+    metadata:
+      labels:
+        app: pythonapi
+    spec:
+      containers:
+        - name: pythonapi
+          image: joelongtoe/fortuneapi
+          ports:
+            - containerPort: 8080
+

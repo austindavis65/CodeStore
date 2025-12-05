@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: stuff-pod
+spec:
+  containers:
+    - name: configmapcontainer
+      image: joelongtoe/f23-ex2:sleep
+      envFrom:
+        - configMapRef:
+            name: stuff-config
+

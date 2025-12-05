@@ -1,0 +1,14 @@
+services:
+  pythonapi:
+    build: .
+    container_name: pythonapi
+    ports:
+      - "8080:8080"
+
+  phpbackend:
+    image: joelongtoe/phpconsumer
+    depends_on: 
+      - pythonapi
+    restart: always
+    ports:
+      - "80:80"

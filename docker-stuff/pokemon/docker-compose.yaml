@@ -1,0 +1,24 @@
+services:
+  db:
+    image: mysql:5.7
+    container_name: pokemon-db
+    environment: 
+      MYSQL_DATABASE: pokemondb
+      MYSQL_USER: poke 
+      MYSQL_PASSWORD: secretpass
+      MYSQL_RANDOM_ROOT_PASSWORD: yes
+
+  web: 
+    build: .
+    depends_on:
+      - db
+    restart: always
+    container_name: pokemon-web
+    environment: 
+      DB_HOST: db
+      DB_USER: poke
+      DB_PASS: secretpass
+      DB_NAME: pokemondb
+    ports:
+      - "80:80"
+
