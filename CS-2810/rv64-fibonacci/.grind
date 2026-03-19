@@ -1,0 +1,9 @@
+{
+    "assignmentID": 3941,
+    "problems": {
+        "rv64-fibonacci": {
+            "id": 462,
+            "step": 1
+        }
+    }
+}

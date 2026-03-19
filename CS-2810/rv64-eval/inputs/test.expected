@@ -1,0 +1,20 @@
+Evaluating expression: 0
+      got back result: 0
+Evaluating expression: 17
+      got back result: 17
+Evaluating expression: -91
+      got back result: -91
+Evaluating expression: 12345
+      got back result: 12345
+Evaluating expression: -98765
+      got back result: -98765
+Evaluating expression: (5 + 7)
+      got back result: 12
+Evaluating expression: (9 - 3)
+      got back result: 6
+Evaluating expression: ((5 + 7) - (9 - 3))
+      got back result: 6
+Evaluating expression: -4
+      got back result: -4
+Evaluating expression: -((5 + 7) - (9 - 3))
+      got back result: -6

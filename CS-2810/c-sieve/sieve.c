@@ -1,0 +1,21 @@
+#include <stdbool.h>  
+#include <stddef.h>  
+
+void sieve(bool *array, size_t size) {
+    for (size_t i = 0; i < size; i++) {
+        array[i] = true;
+    }
+    
+    if (size > 0) array[0] = false;
+    if (size > 1) array[1] = false;
+    
+    for (size_t i = 2; i * i < size; i++) {
+        if (!array[i]) {
+            continue;
+        }
+        
+        for (size_t j = i + i; j < size; j += i) {
+            array[j] = false;
+        }
+    }
+}

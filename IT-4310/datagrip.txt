@@ -1,0 +1,21 @@
+Q1: It was a tie with 4 books between A02 Wendy Heydemark and A04 Klee Hull
+Q2: NULL
+Q3:
+
++----------+-------------------------------------+-------+-----------+-----------+
+| title_id | title_name                          | au_id | au_fname  | au_lname  |
++----------+-------------------------------------+-------+-----------+-----------+
+| T01      | 1977!                               | A01   | Sarah     | Buchman   |
+| T02      | 200 Years of German Humor           | A01   | Sarah     | Buchman   |
+| T03      | Ask Your System Administrator       | A05   | Christian | Kells     |
+| T04      | But I Did It Unconsciously          | A03   | Hallie    | Hull      |
+| T05      | Exchange of Platitudes              | A04   | Klee      | Hull      |
+| T06      | How About Never?                    | A02   | Wendy     | Heydemark |
+| T07      | I Blame My Mother                   | A02   | Wendy     | Heydemark |
+| T08      | Just Wait Until After School        | A06   |           | Kellsey   |
+| T09      | Kiss My Boo- Boo                    | A06   |           | Kellsey   |
+| T10      | Not Without My Faberge Egg          | A02   | Wendy     | Heydemark |
+| T11      | Perhaps Its a Glandular Problem     | A06   |           | Kellsey   |
+| T12      | Spontaneous, Not Annoying           | A02   | Wendy     | Heydemark |
+| T13      | What Are The Civilian Applications? | A01   | Sarah     | Buchman   |
++----------+-------------------------------------+-------+-----------+-----------+

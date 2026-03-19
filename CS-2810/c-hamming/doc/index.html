@@ -1,0 +1,94 @@
+<html><head></head><body><h2>Instructions</h2>
+
+<p>Calculate the Hamming Distance between two DNA strands.</p>
+
+<p>Your body is made up of cells that contain DNA. Those cells
+regularly wear out and need replacing, which they achieve by
+dividing into daughter cells. In fact, the average human body
+experiences about 10 quadrillion cell divisions in a lifetime!</p>
+
+<p>When cells divide, their DNA replicates too. Sometimes during this
+process mistakes happen and single pieces of DNA get encoded with
+the incorrect information. If we compare two strands of DNA and
+count the differences between them we can see how many mistakes
+occurred. This is known as the “Hamming Distance”.</p>
+
+<p>We read DNA using the letters C, A, G and T. Two strands might look
+like this:</p>
+
+<p>GAGCCTACTAACGGGAT
+CATCGTAATGACGGCCT
+^ ^ ^  ^ ^    ^^</p>
+
+<p>They have 7 differences, and therefore the Hamming Distance is 7.</p>
+
+<p>The Hamming Distance is useful for lots of things in science, not
+just biology, so it&#39;s a nice phrase to be familiar with :)</p>
+
+<p>Write your code as a single function in <code>compute.c</code> (you can find
+the prototype in <code>compute.h</code>). Given two strings, return the Hamming
+distance between the two strings. If the strings are of different
+lengths, return -1 instead.</p>
+
+<h2>Visualization</h2>
+
+<p>A helpful way to test this code is to use the Python Tutor:</p>
+
+<ul>
+<li><a href="https://pythontutor.com/">https://pythontutor.com/</a></li>
+</ul>
+
+<p>Find the link to use C instead of Python and follow it. Then go down
+to the editor at the bottom and copy your code over. Add this
+definition for <code>main</code> at the bottom:</p>
+
+<pre><code class="language-c">int main() {
+    char *first = &#34;CAGC&#34;;
+    char *second = &#34;CATC&#34;;
+    int result = compute(first, second);
+    return 0;
+}
+</code></pre>
+
+<p>Then click the “Visualize Execution” button to start the
+visualization and step through your code one line at a time.</p>
+
+<p>A few suggestions to make the visualization more helpful:</p>
+
+<ul>
+<li><p>Write your code to advance pointers through each string instead
+of treating them like arrays:</p>
+
+<ul>
+<li><p>Use <code>*a</code> to get the current character from string <code>a</code>, and
+<code>a++</code> to move it to the next character. Same for <code>b</code>. This
+will give the visualizer a pointer that it can display so
+you can see where <code>a</code> and <code>b</code> are currently pointing after
+they move past the beginning of each string.</p></li>
+
+<li><p>Get each character of each string like this:</p>
+
+<pre><code>char aa = *a;
+char bb = *b;
+</code></pre>
+<p>Then you will be able to see each character in its own box
+and you can see where each came from by looking at the
+arrows.</p></li>
+
+<li><p>The loop should end when either <code>aa</code> or <code>bb</code> is zero, so
+you can test for the end of the loop using <code>!aa || !bb</code>.</p></li>
+
+<li><p>You may just want to start with an infinite loop and then
+explictly <code>break</code> when you detect the end.</p></li>
+</ul></li>
+
+<li><p>The visualizer shows one step per line of code, so if it is
+doing too much in a single step, try breaking your code into
+simple steps so you can see a rendering for each individual
+step.</p></li>
+
+<li><p>Try changing the strings in <code>main</code> to run different tests. For
+example, make one string longer than the other to see how your
+code handles it.</p></li>
+</ul>
+</body></html>

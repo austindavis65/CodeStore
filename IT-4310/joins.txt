@@ -1,0 +1,202 @@
+Query 1:
+
+select titles.title_id, titles.title_name, publishers.pub_id, publishers.pub_name
+from titles
+join publishers on titles.pub_id = publishers.pub_id
+order by pub_id, title_id
+;
+
++--------+-----------------------------------+------+-------------------+
+|TITLE_ID|TITLE_NAME                         |PUB_ID|PUB_NAME           |
++--------+-----------------------------------+------+-------------------+
+|T01     |1977!                              |P01   |Abatis Publishers  |
+|T06     |How About Never?                   |P01   |Abatis Publishers  |
+|T10     |Not Without My Faberge Egg         |P01   |Abatis Publishers  |
+|T12     |Spontaneous, Not Annoying          |P01   |Abatis Publishers  |
+|T03     |Ask Your System Administrator      |P02   |Core Dump Books    |
+|T02     |200 Years of German Humor          |P03   |Schadenfreude Press|
+|T07     |I Blame My Mother                  |P03   |Schadenfreude Press|
+|T13     |What Are The Civilian Applications?|P03   |Schadenfreude Press|
+|T04     |But I Did It Unconsciously         |P04   |Tenterhooks Press  |
+|T05     |Exchange of Platitudes             |P04   |Tenterhooks Press  |
+|T08     |Just Wait Until After School       |P04   |Tenterhooks Press  |
+|T09     |Kiss My Boo-Boo                    |P04   |Tenterhooks Press  |
+|T11     |Perhaps It's a Glandular Problem   |P04   |Tenterhooks Press  |
++--------+-----------------------------------+------+-------------------+
+
+Query 2:
+
+select titles.title_id, titles.title_name, authors.au_lname
+from authors
+join title_authors on title_authors.au_id = authors.au_id
+join titles on titles.title_id = title_authors.title_id
+where au_order = 1
+;
+
++--------+-----------------------------------+---------+
+|TITLE_ID|TITLE_NAME                         |AU_LNAME |
++--------+-----------------------------------+---------+
+|T01     |1977!                              |Buchman  |
+|T02     |200 Years of German Humor          |Buchman  |
+|T03     |Ask Your System Administrator      |Kells    |
+|T04     |But I Did It Unconsciously         |Hull     |
+|T05     |Exchange of Platitudes             |Hull     |
+|T06     |How About Never?                   |Heydemark|
+|T07     |I Blame My Mother                  |Heydemark|
+|T08     |Just Wait Until After School       |Kellsey  |
+|T09     |Kiss My Boo-Boo                    |Kellsey  |
+|T10     |Not Without My Faberge Egg         |Heydemark|
+|T11     |Perhaps It's a Glandular Problem   |Kellsey  |
+|T12     |Spontaneous, Not Annoying          |Heydemark|
+|T13     |What Are The Civilian Applications?|Buchman  |
++--------+-----------------------------------+---------+
+
+Query 3:
+
+select titles.title_id, titles.title_name, publishers.pub_id, publishers.pub_name
+from titles
+join publishers on titles.pub_id = publishers.pub_id
+where publishers.state = 'CA'
+order by pub_id, title_id
+;
+
++--------+--------------------------------+------+-----------------+
+|TITLE_ID|TITLE_NAME                      |PUB_ID|PUB_NAME         |
++--------+--------------------------------+------+-----------------+
+|T03     |Ask Your System Administrator   |P02   |Core Dump Books  |
+|T04     |But I Did It Unconsciously      |P04   |Tenterhooks Press|
+|T05     |Exchange of Platitudes          |P04   |Tenterhooks Press|
+|T08     |Just Wait Until After School    |P04   |Tenterhooks Press|
+|T09     |Kiss My Boo-Boo                 |P04   |Tenterhooks Press|
+|T11     |Perhaps It's a Glandular Problem|P04   |Tenterhooks Press|
++--------+--------------------------------+------+-----------------+
+
+Query 4:
+
+select titles.type, count(*) as "Number"
+from titles
+join publishers on publishers.pub_id = titles.pub_id
+where publishers.state = 'CA'
+group by type
+order by type
+;
+
++----------+------+
+|TYPE      |Number|
++----------+------+
+|children  |2     |
+|computer  |1     |
+|psychology|3     |
++----------+------+
+
+Query 5:
+
+select count(emp_id) as "# Employees", sum(sales) as "Total Sales"
+from empsales
+;
+
++-----------+-----------+
+|# Employees|Total Sales|
++-----------+-----------+
+|10         |5900       |
++-----------+-----------+
+
+Query 6:
+
+select count(empsales.emp_id) as "# Employees", sum(empsales.sales) as "Total Sales"
+from empsales
+full join employees on employees.emp_id = empsales.emp_id
+;
+
++-----------+-----------+
+|# Employees|Total Sales|
++-----------+-----------+
+|10         |5900       |
++-----------+-----------+
+
+Query 7:
+
+select empsales.emp_id, employees.emp_name, empsales.sales
+from EMPSALES
+full join employees on empsales.emp_id = employees.EMP_ID
+;
+
++------+-----------------+-----+
+|EMP_ID|EMP_NAME         |SALES|
++------+-----------------+-----+
+|E01   |Lord Copper      |600  |
+|E02   |Jocelyn Hitchcock|800  |
+|E03   |Mr. Salter       |500  |
+|E04   |William Boot     |500  |
+|E05   |Mr. Corker       |700  |
+|E06   |null             |500  |
+|E07   |null             |300  |
+|E08   |null             |400  |
+|E09   |null             |900  |
+|E10   |null             |700  |
++------+-----------------+-----+
+
+Query 8:
+
+select empsales.emp_id, employees.emp_name, empsales.sales
+from EMPSALES
+join employees on empsales.emp_id = employees.EMP_ID
+;
+
++------+-----------------+-----+
+|EMP_ID|EMP_NAME         |SALES|
++------+-----------------+-----+
+|E01   |Lord Copper      |600  |
+|E02   |Jocelyn Hitchcock|800  |
+|E03   |Mr. Salter       |500  |
+|E04   |William Boot     |500  |
+|E05   |Mr. Corker       |700  |
++------+-----------------+-----+
+
+Query 9:
+
+select empsales.emp_id, employees.emp_name, empsales.sales
+from EMPSALES
+full join employees on empsales.emp_id = employees.EMP_ID
+;
+
++------+-----------------+-----+
+|EMP_ID|EMP_NAME         |SALES|
++------+-----------------+-----+
+|E01   |Lord Copper      |600  |
+|E02   |Jocelyn Hitchcock|800  |
+|E03   |Mr. Salter       |500  |
+|E04   |William Boot     |500  |
+|E05   |Mr. Corker       |700  |
+|E06   |null             |500  |
+|E07   |null             |300  |
+|E08   |null             |400  |
+|E09   |null             |900  |
+|E10   |null             |700  |
++------+-----------------+-----+
+
+Query 10:
+
+select hier.emp_id, employees.emp_name, hier.boss_id, imp.emp_name
+from hier
+left join employees on hier.emp_id = employees.emp_id
+left join employees imp on hier.boss_id = imp.emp_id
+order by hier.emp_id
+;
+
++------+-----------------+-------+-----------------+
+|EMP_ID|EMP_NAME         |BOSS_ID|EMP_NAME         |
++------+-----------------+-------+-----------------+
+|E01   |Lord Copper      |null   |null             |
+|E02   |Jocelyn Hitchcock|E01    |Lord Copper      |
+|E03   |Mr. Salter       |E01    |Lord Copper      |
+|E04   |William Boot     |E02    |Jocelyn Hitchcock|
+|E05   |Mr. Corker       |E02    |Jocelyn Hitchcock|
+|E06   |null             |E03    |Mr. Salter       |
+|E07   |null             |E04    |William Boot     |
+|E08   |null             |E04    |William Boot     |
+|E09   |null             |E04    |William Boot     |
+|E10   |null             |E06    |null             |
+|E11   |null             |E06    |null             |
++------+-----------------+-------+-----------------+
+

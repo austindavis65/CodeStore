@@ -1,0 +1,55 @@
+CREATE TYPE address_ty AS OBJECT
+(name VARCHAR2(30),
+address VARCHAR2(30),
+city VARCHAR2(30),
+state CHAR(2),
+zip CHAR(5));
+/
+
+DROP TABLE IF EXISTS professor;
+CREATE TABLE professor (
+    pid CHAR(5),
+    address address_ty,
+    salary VARCHAR2(30)
+);
+
+INSERT INTO professor VALUES('p01', address_ty('Bobert Robinson', '123 Cherru Lane', 'Kansas', 'KS', '44444'), '50,000');
+INSERT INTO professor VALUES('p02', address_ty('Roberto Bobinson', '125 Cherry Lane', 'Kansas', 'MO', '44455'), '69,000');
+INSERT INTO professor VALUES('p03', address_ty('Carl Intern', '456 Candy Ave', 'Miami', 'FL', '55544'), '0');
+
+DROP TABLE IF EXISTS student;
+CREATE TABLE student (
+    sid CHAR(5),
+    address address_ty,
+    gpa VARCHAR2(5)
+);
+
+INSERT INTO student VALUES('s01', address_ty('Steven Spiel', '228 Sherru Lane', 'Kansas', 'KS', '44444'), '3.2');
+INSERT INTO student VALUES('s02', address_ty('Robin Downey', '334 Sherry Lane', 'Kansa', 'MO', '44455'), '2.9');
+INSERT INTO student VALUES('s03', address_ty('Crobus Corgi', '456 Sandy Ave', 'Miami', 'FL', '55544'), '1.0');
+
+
+SELECT pid, p.address.zip
+FROM professor p;
+SELECT sid, s.address.city
+FROM student s;
+
++----------+
+|  Output  |
++----------+
+
++-----+-----------+
+|PID  |ADDRESS.ZIP|
++-----+-----------+
+|p01  |44444      |
+|p02  |44455      |
+|p03  |55544      |
++-----+-----------+
+
++-----+------------+
+|SID  |ADDRESS.CITY|
++-----+------------+
+|s01  |Kansas      |
+|s02  |Kansa       |
+|s03  |Miami       |
++-----+------------+

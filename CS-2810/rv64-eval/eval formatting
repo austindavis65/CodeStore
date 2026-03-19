@@ -1,0 +1,62 @@
+eval:
+    addi sp, sp, -16  
+    sd  ra, 0(sp)     
+    sd  s0, 8(sp)    
+
+    ld  t0, 0(a0) 
+    li  t1, 1      
+    beq t0, t1, .literal_case
+
+    li  t1, 2     
+    beq t0, t1, .plus_case
+
+    li  t1, 3     
+    beq t0, t1, .minus_case
+
+    li  t1, 4     
+    beq t0, t1, .negate_case
+
+    li  a0, -1
+    j .return
+
+.literal_case:
+    
+    ld  a0, 8(a0)
+    j .return
+
+.plus_case:
+    ld  a1, 8(a0)  
+    call eval     
+    mv  s0, a0     
+
+    ld  a1, 16(a0) 
+    call eval      
+
+    
+    add a0, s0, a0
+    j .return
+
+.minus_case:
+    ld  a1, 8(a0) 
+    call eval      
+    mv  s0, a0   
+
+    ld  a1, 16(a0) 
+    call eval    
+
+    sub a0, s0, a0
+    j .return
+
+.negate_case:
+   
+    ld  a1, 8(a0) 
+    call eval      
+
+    neg a0, a0
+    j .return
+
+.return:
+    ld  s0, 8(sp)    
+    ld  ra, 0(sp)    
+    addi sp, sp, 16  
+    ret         
